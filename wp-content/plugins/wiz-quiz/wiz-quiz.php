@@ -18,4 +18,6 @@ if (!defined('ABSPATH')) {
 exit; // Exit if accessed directly.
 }
 
-// error_log('Plugin Activated');
+
+
+echo 'hello';
