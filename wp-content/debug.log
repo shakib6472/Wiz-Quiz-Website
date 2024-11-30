@@ -1,0 +1,17 @@
+[30-Nov-2024 19:31:09 UTC] PHP Deprecated:  Function print_emoji_styles is <strong>deprecated</strong> since version 6.4.0! Use wp_enqueue_emoji_styles instead. in C:\xampp\htdocs\wiz\wp-includes\functions.php on line 6114
+[30-Nov-2024 19:31:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[30-Nov-2024 19:31:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[30-Nov-2024 19:31:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[30-Nov-2024 19:31:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[30-Nov-2024 19:31:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[30-Nov-2024 19:31:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[30-Nov-2024 19:31:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[30-Nov-2024 19:31:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[30-Nov-2024 21:37:08 UTC] PHP Deprecated:  Function print_emoji_styles is <strong>deprecated</strong> since version 6.4.0! Use wp_enqueue_emoji_styles instead. in C:\xampp\htdocs\wiz\wp-includes\functions.php on line 6114
+[30-Nov-2024 21:37:11 UTC] PHP Deprecated:  Function utf8_decode() is deprecated in C:\xampp\htdocs\wiz\wp-content\plugins\elementor-pro\modules\screenshots\module.php on line 33
+[30-Nov-2024 21:39:59 UTC] PHP Deprecated:  Function print_emoji_styles is <strong>deprecated</strong> since version 6.4.0! Use wp_enqueue_emoji_styles instead. in C:\xampp\htdocs\wiz\wp-includes\functions.php on line 6114
+[30-Nov-2024 21:40:01 UTC] PHP Deprecated:  Function utf8_decode() is deprecated in C:\xampp\htdocs\wiz\wp-content\plugins\elementor-pro\modules\screenshots\module.php on line 33
+[30-Nov-2024 21:41:31 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[30-Nov-2024 21:42:13 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\xampp\htdocs\wiz\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[30-Nov-2024 21:46:48 UTC] Automatic updates starting...
+[30-Nov-2024 21:46:51 UTC] Automatic updates complete.
