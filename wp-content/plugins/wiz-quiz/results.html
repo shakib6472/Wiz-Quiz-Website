@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Test Results</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2f4f4f;
+}
+
+p {
+    margin: 0 0 10px;
+    text-align: center;
+    color: #555;
+}
+
+/* Header Section */
+.header {
+    background-color: #e0f7fa;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Summary Section */
+.summary-section {
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.summary-header {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.score-summary {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.score {
+    font-weight: bold;
+    color: #333;
+    font-size: 2rem;
+}
+
+.percentage {
+    color: #666;
+}
+
+/* Question Results Section */
+.question-results {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+.question-box {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.correct {
+    background-color: #4caf50;
+}
+
+.incorrect {
+    background-color: #f44336;
+}
+
+/* Detailed Results Section */
+.detailed-results {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.results-table th, .results-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.results-table th {
+    background-color: #e0f7fa;
+    color: #333;
+    font-weight: bold;
+}
+
+.result.correct {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.result.incorrect {
+    color: #f44336;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Selective High School Placement Test - Practice Test 2 - Reading</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Summary Section -->
+        <section class="summary-section">
+            <div class="summary-header">Summary</div>
+            <p>Submitted Fri, 29 Nov 2024 @ 3:27pm</p>
+            <div class="score-summary">
+                <div class="score">10/30</div>
+                <div class="percentage">33.3%</div>
+            </div>
+        </section>
+
+        <!-- Question Results Section -->
+        <section class="question-results">
+            <h2>Question Results</h2>
+            <p>Click a question to view your response in detail.</p>
+            <div class="results-grid">
+                <div class="question-box correct">1</div>
+                <div class="question-box incorrect">2</div>
+                <div class="question-box correct">3</div>
+                <div class="question-box incorrect">4</div>
+                <div class="question-box incorrect">5</div>
+                <div class="question-box correct">6</div>
+                <div class="question-box correct">7</div>
+                <div class="question-box incorrect">8</div>
+                <div class="question-box correct">9</div>
+                <div class="question-box incorrect">10</div>
+                <div class="question-box incorrect">11</div>
+                <div class="question-box incorrect">12</div>
+                <div class="question-box correct">13</div>
+                <div class="question-box correct">14</div>
+                <div class="question-box incorrect">15</div>
+                <div class="question-box incorrect">16</div>
+            </div>
+        </section>
+
+        <!-- Detailed Results Section -->
+        <section class="detailed-results">
+            <h2>Detailed Results</h2>
+            <p>Click a question to view your response in detail.</p>
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Type</th>
+                        <th>Question</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Bombay</td>
+                        <td><a href="#">Bombay 01</a></td>
+                        <td class="result correct">✔</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bombay</td>
+                        <td><a href="#">Bombay 02</a></td>
+                        <td class="result incorrect">✘</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Bombay</td>
+                        <td><a href="#">Bombay 03</a></td>
+                        <td class="result correct">✔</td>
+                    </tr>
+                    <!-- Add more rows as required -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,3 +1,126 @@
-*{
-    font-size: 16px;
-}
+/* Define color variables in :root */
+:root {
+    --e-global-color-primary: #002664; /* Primary Color */
+    --e-global-color-secondary: #1c1c1c; /* Secondary Color */
+    --e-global-color-text: #232323; /* Text Color */
+    --e-global-color-accent: #002664; /* Accent Color */
+    --e-global-color-66da41b: #002664; /* Custom Color 1 */
+    --e-global-color-cde244b: #ffffff; /* White */
+    --e-global-color-75840e7: #fff1f5; /* Light Accent */
+    --e-global-typography-primary-font-family: "Bebas Neue"; /* Primary Font */
+    --e-global-typography-primary-font-weight: 600; /* Primary Font Weight */
+    --e-global-typography-secondary-font-family: "Poppins"; /* Secondary Font */
+    --e-global-typography-secondary-font-weight: 400; /* Secondary Font Weight */
+    --e-global-typography-text-font-family: "Merriweather Sans"; /* Text Font */
+    --e-global-typography-text-font-weight: 400; /* Text Font Weight */
+    --e-global-typography-accent-font-family: "Bebas Neue"; /* Accent Font */
+    --e-global-typography-accent-font-weight: 500; /* Accent Font Weight */
+  }
+  
+  /* Reset CSS */
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    font-family: var(--e-global-typography-text-font-family);
+    line-height: 1.5;
+    background-color: var(--e-global-color-75840e7); /* Light Accent as background */
+    color: var(--e-global-color-text); /* Text Color */
+  }
+  
+  /* Headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+    font-weight: inherit;
+    margin: 0;
+  }
+  
+  /* List styling */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Link styling */
+  a {
+    text-decoration: none;
+    color: var(--e-global-color-primary); /* Primary Color for links */
+  }
+  
+  a:hover {
+    color: var(--e-global-color-secondary); /* Secondary color on hover */
+  }
+  
+  /* Image styling */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Table styling */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: var(--e-global-color-primary); /* Primary color for buttons */
+    color: var(--e-global-color-cde244b); /* White text */
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--e-global-color-secondary); /* Secondary color on hover */
+  }
+  
+  /* Input and textarea styling */
+  input,
+  textarea {
+    border: 1px solid var(--e-global-color-primary);
+    outline: none;
+    font: inherit;
+  }
+  
+  /* Styling for the parent container */
+  .wiz-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Optional padding for inner spacing */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    background-color: var(--e-global-color-75840e7); /* Light Accent */
+    color: var(--e-global-color-text); /* Text color */
+  }
+  
+  /* Responsiveness for smaller screens */
+  @media (max-width: 1200px) {
+    .wiz-container {
+      padding: 0 15px; /* Adjust padding if necessary */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .wiz-container {
+      padding: 0 10px; /* Less padding for mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wiz-container {
+      padding: 0 5px; /* Even less padding for smaller screens */
+    }
+  }
+  
