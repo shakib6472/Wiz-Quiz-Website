@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-    console.log('Connected');
+    console.log('Connected 2.o0');
 
     function showLoader() {
         $('.preloader').css('display', 'flex')
@@ -35,7 +35,6 @@ jQuery(document).ready(function ($) {
             loaderBg: '#002664'
         });
     }
-
 
     $('.extract-heads .heads').click(function (e) {
         e.preventDefault();
@@ -91,6 +90,7 @@ jQuery(document).ready(function ($) {
             if (checkedRadio.length > 0) {
                 console.log('Active Slide Found. Slide Number: ' + currentSlide);
                 console.log('Next Slide Number: ' + nextSlide);
+                $('.title-area .instruction').text('Question No. ' + nextSlide + ' of ' + maxSlide);
                 wiz_pagination_update(currentSlide);
                 wiz_pagination_update_not_answred(nextSlide)
                 // Check if the next slide exceeds maxSlide
@@ -105,8 +105,9 @@ jQuery(document).ready(function ($) {
                 wiz_pagination_update_not_answred(currentSlide)
                 showToastPlugin('Error', 'Please Select a Answer First');
             }
-
+            
         } else {
+            $('.title-area .instruction').text('Question No. 1 of ' + maxSlide);
             console.log('Active Slide Not Found');
             $('.information').hide();
             // If no active slide is found, set the first slide as active
@@ -132,15 +133,18 @@ jQuery(document).ready(function ($) {
                 console.log('This is the First Slide');
                 $('.slides').removeClass('active');
                 $('.information').show();
+                $('.title-area .instruction').text('Instruction');
             } else {
                 $('.information').hide();
                 // Remove active class from all slides and add it to the next slide
                 $('.slides').removeClass('active');
-                $('.slides[data-slide="' + prevSlide + '"]').addClass('active');
+                $('.slides[data-slide="' + prevSlide + '"]').addClass('active'); 
+                $('.title-area .instruction').text('Question No. ' + prevSlide + ' of ' + maxSlide);
             }
         } else {
             console.log('Active Slide Not Found');
             $('.information').show();
+            $('.title-area .instruction').text('Instruction');
             // If no active slide is found, set the first slide as active
             $('.slides').removeClass('active');
             console.log('This is Information Slide');

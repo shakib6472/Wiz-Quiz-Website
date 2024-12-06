@@ -1,0 +1,217 @@
+[06-Dec-2024 09:29:25 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 3
+    [filter] => raw
+)
+
+[06-Dec-2024 09:29:25 UTC] Posts associated with the term: Array
+(
+    [0] => WP_Post Object
+        (
+            [ID] => 35
+            [post_author] => 1
+            [post_date] => 2024-12-03 14:12:34
+            [post_date_gmt] => 2024-12-03 14:12:34
+            [post_content] => 
+            [post_title] => Practice 1
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => practice-1
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2024-12-06 09:22:15
+            [post_modified_gmt] => 2024-12-06 09:22:15
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://localhost/wiz/?post_type=reading&#038;p=35
+            [menu_order] => 0
+            [post_type] => reading
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [1] => WP_Post Object
+        (
+            [ID] => 100
+            [post_author] => 1
+            [post_date] => 2024-12-03 14:09:30
+            [post_date_gmt] => 2024-12-03 14:09:30
+            [post_content] => 
+            [post_title] => First Question
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => first-question
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2024-12-06 09:22:15
+            [post_modified_gmt] => 2024-12-06 09:22:15
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://localhost/wiz/?post_type=reading&#038;p=100
+            [menu_order] => 0
+            [post_type] => reading
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [2] => WP_Post Object
+        (
+            [ID] => 89
+            [post_author] => 1
+            [post_date] => 2024-12-01 20:57:10
+            [post_date_gmt] => 2024-12-01 20:57:10
+            [post_content] => 
+            [post_title] => This is Question 13?
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => this-is-question-13
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2024-12-06 09:22:15
+            [post_modified_gmt] => 2024-12-06 09:22:15
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://localhost/wiz/?post_type=reading&#038;p=89
+            [menu_order] => 0
+            [post_type] => reading
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+)
+
+[06-Dec-2024 11:08:04 UTC] Automatic updates starting...
+[06-Dec-2024 11:08:07 UTC] Automatic updates complete.
+[06-Dec-2024 16:00:47 UTC] WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 3
+    [filter] => raw
+)
+
+[06-Dec-2024 16:00:47 UTC] Term URL: http://localhost/wiz/reading-practice/practice-1/
+[06-Dec-2024 16:00:49 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 3
+    [filter] => raw
+)
+
+[06-Dec-2024 16:00:49 UTC] WP_Post Object
+(
+    [ID] => 35
+    [post_author] => 1
+    [post_date] => 2024-12-03 14:12:34
+    [post_date_gmt] => 2024-12-03 14:12:34
+    [post_content] => 
+    [post_title] => Practice 1
+    [post_excerpt] => 
+    [post_status] => publish
+    [comment_status] => closed
+    [ping_status] => closed
+    [post_password] => 
+    [post_name] => practice-1
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2024-12-06 09:22:15
+    [post_modified_gmt] => 2024-12-06 09:22:15
+    [post_content_filtered] => 
+    [post_parent] => 0
+    [guid] => http://localhost/wiz/?post_type=reading&#038;p=35
+    [menu_order] => 0
+    [post_type] => reading
+    [post_mime_type] => 
+    [comment_count] => 0
+    [filter] => raw
+)
+
+[06-Dec-2024 16:00:49 UTC] WP_Post Object
+(
+    [ID] => 100
+    [post_author] => 1
+    [post_date] => 2024-12-03 14:09:30
+    [post_date_gmt] => 2024-12-03 14:09:30
+    [post_content] => 
+    [post_title] => First Question
+    [post_excerpt] => 
+    [post_status] => publish
+    [comment_status] => closed
+    [ping_status] => closed
+    [post_password] => 
+    [post_name] => first-question
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2024-12-06 09:22:15
+    [post_modified_gmt] => 2024-12-06 09:22:15
+    [post_content_filtered] => 
+    [post_parent] => 0
+    [guid] => http://localhost/wiz/?post_type=reading&#038;p=100
+    [menu_order] => 0
+    [post_type] => reading
+    [post_mime_type] => 
+    [comment_count] => 0
+    [filter] => raw
+)
+
+[06-Dec-2024 16:00:49 UTC] WP_Post Object
+(
+    [ID] => 89
+    [post_author] => 1
+    [post_date] => 2024-12-01 20:57:10
+    [post_date_gmt] => 2024-12-01 20:57:10
+    [post_content] => 
+    [post_title] => This is Question 13?
+    [post_excerpt] => 
+    [post_status] => publish
+    [comment_status] => closed
+    [ping_status] => closed
+    [post_password] => 
+    [post_name] => this-is-question-13
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2024-12-06 09:22:15
+    [post_modified_gmt] => 2024-12-06 09:22:15
+    [post_content_filtered] => 
+    [post_parent] => 0
+    [guid] => http://localhost/wiz/?post_type=reading&#038;p=89
+    [menu_order] => 0
+    [post_type] => reading
+    [post_mime_type] => 
+    [comment_count] => 0
+    [filter] => raw
+)
+

@@ -22,8 +22,8 @@ define('WIZ_QUIZ_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('WIZ_QUIZ_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 require_once WIZ_QUIZ_PLUGIN_DIR . 'ele/elementor-setup.php';
-
-
+require_once WIZ_QUIZ_PLUGIN_DIR . 'setups.php';
+ 
 
 /* Enqueue Assets */
 function wiz_enqueue_assets()
@@ -33,7 +33,9 @@ function wiz_enqueue_assets()
     wp_enqueue_style('wiz-quiz-style', plugin_dir_url(__FILE__) . 'assets/css/style.css', array(), '1.0.0', 'all');
 
     wp_enqueue_script('jquery');
-    wp_enqueue_script('wiz-quiz-script', plugin_dir_url(__FILE__) . 'assets/js/script.js', array('jquery'), '1.0.0', true); // Load after jQuery
+    wp_enqueue_script('wiz-quiz-script', plugin_dir_url(__FILE__) . 'assets/js/scripts.js', array('jquery'), '1.0.0', true); // Load after jQuery
+    wp_enqueue_script('wiz-quiz-font-owsome-script',  'https://kit.fontawesome.com/46882cce5e.js', array('jquery'), '1.0.0', true); // Load after jQuery
+    wp_enqueue_script('wiz-quiz-toast-script',  'https://cdn.jsdelivr.net/npm/jquery-toast-plugin@1.3.2/dist/jquery.toast.min.js', array('jquery'), '1.0.0', true); // Load after jQuery
 }
 add_action('wp_enqueue_scripts', 'wiz_enqueue_assets');
 
@@ -61,3 +63,4 @@ function wiz_uninstall_plugin()
 
 }
 register_uninstall_hook(__FILE__, 'wiz_uninstall_plugin');
+
