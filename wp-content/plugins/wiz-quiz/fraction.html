@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Math Example</title>
+    <!-- Include MathJax Library -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+</head>
+<body>
+    <h1>Advanced Math Example: Integral with Limits</h1>
+
+    <div class="math-section">
+        <h2>Problem: Evaluate the Integral</h2>
+        <p>Consider the following integral with limits:</p>
+        <p class="math">\( \int_{1}^{4} \frac{3x^2 - 5x + 2}{x} \, dx \)</p>
+        <p>Step 1: Simplify the integrand by dividing each term in the numerator by \( x \):</p>
+        <p class="math">\( \int_{1}^{4} \left( 3x - 5 + \frac{2}{x} \right) dx \)</p>
+        <p>Step 2: Now we can separate the integral into three simpler integrals:</p>
+        <p class="math">\( \int_{1}^{4} 3x \, dx - \int_{1}^{4} 5 \, dx + \int_{1}^{4} \frac{2}{x} \, dx \)</p>
+        <p>Step 3: Solve each of the integrals:</p>
+        <p class="math">\( \int_{1}^{4} 3x \, dx = \left[ \frac{3x^2}{2} \right]_{1}^{4} = \frac{3(4)^2}{2} - \frac{3(1)^2}{2} = 24 - \frac{3}{2} = \frac{45}{2} \)</p>
+        <p class="math">\( \int_{1}^{4} 5 \, dx = 5(x) \Big|_1^4 = 5(4) - 5(1) = 20 - 5 = 15 \)</p>
+        <p class="math">\( \int_{1}^{4} \frac{2}{x} \, dx = 2 \ln|x| \Big|_1^4 = 2(\ln(4) - \ln(1)) = 2 \ln(4) \)</p>
+        <p>Step 4: Combine all the results:</p>
+        <p class="math">\( \frac{45}{2} - 15 + 2 \ln(4) \)</p>
+        <p>Step 5: Final simplified result:</p>
+        <p class="math">\( \frac{45}{2} - \frac{30}{2} + 2 \ln(4) = \frac{15}{2} + 2 \ln(4) \)</p>
+        <p class="math">$$ \frac{45}{2} - \frac{30}{2} + 2 \ln(4) = \frac{15}{2} + 2 ln(4) $$</p>
+    </div>
+
+</body>
+</html>

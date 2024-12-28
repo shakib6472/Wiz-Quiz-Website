@@ -1,0 +1,2 @@
+[27-Dec-2024 10:24:27 UTC] PHP Warning:  Undefined variable $publish_time in C:\xampp\htdocs\wiz\wp-content\plugins\wiz-quiz\ele\widgets\result.php on line 22
+[27-Dec-2024 10:24:27 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\wiz\wp-content\plugins\wiz-quiz\ele\widgets\result.php on line 22

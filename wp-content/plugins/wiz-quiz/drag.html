@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop Options with Submit</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/wp-content/plugins/wiz-quiz/assets/css/style.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .dragable-container .options {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+      }
+      .dragable-container .options .option {
+        width: auto;
+        height: 50px;
+        padding: 0px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed #002664;
+        border-radius: 5px;
+        background-color: #00266429;
+        cursor: -webkit-grab;
+        cursor: grab;
+        transition: background-color 0.4s;
+      }
+      .dragable-container .options .option:hover {
+        background-color: #00266467;
+      }
+
+      .dragable-container .options .option:active {
+        cursor: -webkit-grabbing;
+        cursor: grabbing;
+      }
+
+      .dragable-container .answer-boxes {
+        display: block;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      .dragable-container .answer-boxes .option:active {
+        cursor: -webkit-grabbing;
+        cursor: grabbing;
+      }
+      .dragable-container .answer-boxes .option {
+        width: 100%; 
+        height: 100%;
+        padding: 0px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #00266429; 
+        cursor: -webkit-grab;
+        cursor: grab;
+        transition: background-color 0.4s;
+      }
+
+      .dragable-container .answer-boxes .option:hover { 
+        background-color: #0026644e;
+      }
+      .dragable-container .answer-boxes .ans-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 10px;
+        background-color: #e5e5e5;
+        padding: 5px 15px;
+        border-radius: 8px;
+      }
+      .dragable-container .answer-boxes .ans-group .group-name {
+        width: 25%;
+        font-size: 19px;
+        font-weight: 500;
+      }
+
+      .dragable-container .answer-boxes .answer-box {
+        width: 75%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed #002664;
+        border-radius: 5px;
+        background-color: #fff;
+        position: relative;
+      }
+      .dragable-container .answer-boxes .answer-box:hover { 
+        background-color: #00266409; 
+      }
+      .answer-box.filled {
+        background-color: #dff0d8;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="wiz_container dragable-container"> 
+      <!-- Options -->
+      <div class="options" id="options">
+        <div class="option" data-option-id="1">
+          Option lore nskf kdfsdf new nees one 1
+        </div>
+        <div class="option" data-option-id="2">
+          Op lore nskf kdfsdf new nees onetion 2
+        </div>
+        <div class="option" data-option-id="3">
+          Op lore nskf kdfsdf new nees onetion 3
+        </div>
+        <div class="option" data-option-id="4">
+          Opti lore nskf kdfsdf new nees oneon 4
+        </div>
+        <div class="option" data-option-id="5">
+          Option 5 lore nskf kdfsdf new nees one
+        </div>
+        <div class="option" data-option-id="6">
+          O lore nskf kdfsdf new nees oneption 6
+        </div>
+      </div>
+
+      <!-- Answer Boxes -->
+      <div class="answer-boxes" id="answer-boxes">
+        <div class="ans-group">
+          <div class="group-name">Group 1</div>
+          <div class="answer-box" data-box-id="1">
+            <span class="placeholder">Drop here</span>
+          </div>
+        </div>
+        <div class="ans-group">
+          <div class="group-name">Group 2</div>
+          <div class="answer-box" data-box-id="2">
+            <span class="placeholder">Drop here</span>
+          </div>
+        </div>
+        <div class="ans-group">
+          <div class="group-name">Group 3</div>
+          <div class="answer-box" data-box-id="3">
+            <span class="placeholder">Drop here</span>
+          </div>
+        </div>
+        <div class="ans-group">
+          <div class="group-name">Group 4</div>
+          <div class="answer-box" data-box-id="4">
+            <span class="placeholder">Drop here</span>
+          </div>
+        </div>
+        <div class="ans-group">
+          <div class="group-name">Group 5</div>
+          <div class="answer-box" data-box-id="5">
+            <span class="placeholder">Drop here</span>
+          </div>
+        </div>
+        <div class="ans-group">
+          <div class="group-name">Group 6</div>
+          <div class="answer-box" data-box-id="6">
+            <span class="placeholder">Drop here</span>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+
+    <script>
+      $(function () {
+        // Make options draggable
+        $(".drag_option").draggable({
+          revert: "invalid",
+          stack: ".option",
+          cursor: "move",
+          containment: "body",
+        });
+
+        // Make answer boxes droppable
+        $(".answer-box").droppable({
+          accept: ".drag_option",
+          drop: function (event, ui) {
+            const $box = $(this);
+            const $option = $(ui.draggable);
+
+            if ($box.hasClass("filled")) {
+              const $existingOption = $box.find(".drag_option");
+              $("#options").append($existingOption);
+              $existingOption.css({ top: "0px", left: "0px" });
+            }
+
+            $box.empty().append($option).addClass("filled");
+            $option.css({ top: "0px", left: "0px" });
+          },
+        });
+
+        // Options pool droppable
+        $("#options").droppable({
+          accept: ".drag_option",
+          drop: function (event, ui) {
+            const $option = $(ui.draggable);
+            const $box = $option.closest(".answer-box");
+            if ($box.length) {
+              $box
+                .removeClass("filled")
+                .html('<span class="placeholder">Drop here</span>');
+            }
+            $(this).append($option);
+            $option.css({ top: "0px", left: "0px" });
+          },
+        });
+
+        // Submit button click
+        $("#submit-btn").click(function () {
+          const results = [];
+          $(".answer-box").each(function () {
+            const boxId = $(this).data("box-id");
+            const option = $(this).find(".option").text() || "Empty";
+            results.push({ boxId, option });
+          });
+
+          console.log("Results:", results);
+
+          let outputHtml = "<h4>Submission Results:</h4><ul>";
+          results.forEach(
+            (result) =>
+              (outputHtml += `<li>Box ${result.boxId}: ${result.option}</li>`)
+          );
+          outputHtml += "</ul>";
+          $("#output").html(outputHtml);
+        });
+      });
+    </script>
+  </body>
+</html>

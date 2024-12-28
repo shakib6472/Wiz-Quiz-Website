@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Form</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        color: #002664;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .quiz-container {
+        border-radius: 8px;
+        width: 100%;
+        max-width: 98%;
+        padding: 60px;
+      }
+      .q-multipl-bg {
+          background-color: #00266420; 
+          padding: 1px 2px 3px 1px;
+          border-radius: 5px;
+          margin-bottom: 10px;
+          overflow: hidden;
+          transition: all 0.4s;
+        }
+        .q-multipl-bg:hover {
+          background-color: #00266480; 
+        box-shadow: inset 1px 2px 10px 2px #002664;
+        }
+        .question-row {
+          background-color: #f1f6ff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        padding: 10px 0;
+        padding: 10px 20px;
+      }
+      .question-row label {
+        flex: 1;
+        font-size: 16px;
+        color: #002664;
+        font-weight: 700;
+      }
+.question-row select {
+  width: 140px;                
+  padding: 10px 12px;          
+  font-size: 16px;            
+  border: 2px solid #ccc;     
+  border-radius: 5px;        
+  background-color: #f9f9f9;  /* Light background color */
+  transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+/* Hover effect to improve interactivity */
+.question-row select:hover {
+  border-color: #002664; /* Blue border on hover */
+}
+
+/* Focus effect to indicate the selected dropdown */
+.question-row select:focus {
+  border-color: #002664; /* Change border color when focused */
+  outline: none;          /* Remove default outline */
+}
+    </style>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="q-multipl-bg">
+        <div class="question-row">
+          <label for="q1">1. What is the capital of France?</label>
+          <select id="q1" name="q1">
+            <option value="A">Extract A</option>
+            <option value="B">Extract B</option>
+            <option value="C">Extract C</option>
+            <option value="D">Extract D</option>
+          </select>
+        </div>
+  </div>
+
+      <div class="q-multipl-bg">
+        <div class="question-row">
+          <label for="q2">2. Who wrote 'Hamlet'?</label>
+          <select id="q2" name="q2">
+            <option value="A">Extract A</option>
+            <option value="B">Extract B</option>
+            <option value="C">Extract C</option>
+            <option value="D">Extract D</option>
+          </select>
+        </div>
+        </div>
+
+      <div class="q-multipl-bg">
+        <div class="question-row">
+          <label for="q3"
+            >3. What is the largest planet in our solar system?</label
+          >
+          <select id="q3" name="q3">
+            <option value="A">Extract A</option>
+            <option value="B">Extract B</option>
+            <option value="C">Extract C</option>
+            <option value="D">Extract D</option>
+          </select>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

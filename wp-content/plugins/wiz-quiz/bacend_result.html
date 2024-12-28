@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Result</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .wiz_container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+      }
+      .wiz_container .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .writting_container .header h1 {
+        margin: 0;
+      }
+      .wiz_container .info {
+        margin-bottom: 10px;
+        display: flex;
+        column-gap: 20px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+      }
+      .wiz_container .info .info-item {
+        border: 1px solid #e1e1e1;
+        padding: 6px 10px;
+        border-radius: 5px;
+        background-color: #f6feff;
+        transition: all 0.3s;
+      }
+      .wiz_container .info .info-item:hover {
+        scale: 1.1;
+      }
+      .wiz_container .info .info-item strong {
+        margin-right: 5px;
+      }
+
+      .writting_container .result {
+        margin-top: 20px;
+      }
+      .writting_container .result table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .writting_container .result th,
+      .writting_container .result td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      .writting_container .result th {
+        background-color: #f2f2f2;
+      }
+      .writting_container #score {
+        border: 2px solid #e0e0e0;
+        border-radius: 4px;
+        padding: 5px 10px;
+        outline: none;
+        font-size: 25px;
+        width: 130px;
+      }
+      .writting_container .action .btn-update_result {
+        background-color: #0d4e0f;
+        padding: 10px 20px;
+        margin-top: 15px;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: all 0.3s;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      .writting_container .action .btn-update_result:hover {
+        opacity: 0.7;
+      }
+    </style>
+ 
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wiz_container writting_container">
+      <div class="header">
+        <h1>Review the answer</h1>
+      </div>
+      <div class="info">
+        <div class="info-item"><strong>User Name:</strong> Shakib Shown</div>
+        <div class="info-item"><strong>User ID:</strong> 1</div>
+        <div class="info-item"><strong>Device ID:</strong> ::1</div>
+        <div class="info-item"><strong>Quiz ID:</strong> 1734090574</div>
+        <div class="info-item"><strong>Practice Name:</strong> Practice 1</div>
+        <div class="info-item"><strong>Date:</strong> 2024-12-13 11:49:36</div>
+        <div class="info-item"><strong>Time Spent:</strong> 11 minutes</div>
+        <div class="info-item"><strong>Total Points:</strong> 10</div>
+        <div class="info-item"><strong>Points Gained:</strong> 10</div>
+        <div class="info-item">
+          <strong>User Agent:</strong> Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+        </div>
+      </div>
+      <div class="result">
+        <h2>Answer Details</h2>
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 90%">Answer Given by user</th>
+              <th>Give Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="question">
+                  <h3>What is the capital of Bangladesh?</h3>
+                </div>
+                <div class="option-container scrollbar">
+                  <div id="editor">Value will go here, Right?</div>
+                </div>
+              </td>
+              <td>
+                <div class="score">
+                  <input
+                    type="number"
+                    name="score"
+                    id="score"
+                    value="10"
+                    max="10"
+                    min="0"
+                  />
+                </div>
+                <div class="action">
+                  <div class="btn-update_result">Update Score</div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js' integrity='sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=' crossorigin='anonymous'></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+  
+  <script>
+      var quill = new Quill("#editor", {
+        theme: "snow",
+        modules: {
+          toolbar: [
+            [
+              {
+                header: "1",
+              },
+              {
+                header: "2",
+              },
+              {
+                font: [],
+              },
+            ],
+            [
+              {
+                list: "ordered",
+              },
+              {
+                list: "bullet",
+              },
+            ],
+            ["bold", "italic", "underline", "strike"],
+            [
+              {
+                align: [],
+              },
+            ],
+            ["link"],
+            ["blockquote", "code-block"],
+            [
+              {
+                script: "sub",
+              },
+              {
+                script: "super",
+              },
+            ],
+            ["image"],
+            ["clean"],
+          ],
+        },
+        placeholder: "Type your text here...",
+      });
+      // Disable spellcheck to prevent Grammarly interference
+      document.getElementById("editor").setAttribute("spellcheck", "false");    
+    </script>
+  </body>
+</html>

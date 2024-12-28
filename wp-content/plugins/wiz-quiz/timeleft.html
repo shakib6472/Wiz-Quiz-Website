@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/46882cce5e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="/wp-content/plugins/wiz-quiz/assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/wp-content/plugins/wiz-quiz/assets/css/toast.css"
+    />
+  </head>
+  <style>
+    .time_container {
+      min-height: 60vh;
+      max-width: 800px;
+      padding: 40px;
+    }
+    .time_container .timer-prebox {
+      border-style: solid;
+      border-width: 4px;
+      border-color: #00266457;
+      border-radius: 13px;
+      padding: 30px;
+      transition: all 0.3s;
+    }
+    .time_container .timer-prebox h1 {
+      text-align: center; 
+    }
+    .time_container .timer-prebox h4 {
+      text-align: center; 
+      font-size: 26px;
+      margin-bottom: 30px;
+      color: #0d5a13;
+    }
+    .time_container .timer-box {
+      display: flex;
+      transition: all 0.3s;
+      align-items: center;
+      justify-content: center;
+    }
+    .time_container .timer-box .timer {
+      width: 60%;
+    }
+    .time_container .timer-box .image {
+      width: 40%;
+    }
+    .time_container .timer-box .image img {
+      max-width: 100%;
+      scale: 1.4;
+    }
+    .countdown-container {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .time-box {
+      flex: 1 1 calc(50%);
+      max-width: calc(50% - 20px);
+      box-sizing: border-box;
+      background-color: #002e5d;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+      padding: 20px 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .time-box span {
+      display: block;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .time-box .label {
+      margin-top: 5px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+    #countdown-text {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #002e5d;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+  <body> 
+    <div class="wiz_container time_container">
+      <div class="timer-prebox">
+        <h1>Tick Tock! The Quiz Clock Is Running!</h1>
+        <h4>Your next test is only available for:</h4>
+        <div class="timer-box">
+          <div class="timer">
+            <div class="timer__header">
+              <h3 id="countdown-text">
+                0 Day 0 Hours 0 Minutes 0 Seconds
+              </h3>
+            </div>
+          </div>
+          <div class="image">
+            <img src="/wp-content/plugins/wiz-quiz/assets/css/timeleft.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script>
+      $(document).ready(function () {
+
+        // Set the target date
+        const targetDate = new Date("2024-12-22 18:42:20");
+
+        function updateCountdown() {
+          const now = new Date();
+          const timeLeft = targetDate - now;
+
+          if (timeLeft <= 0) {
+            clearInterval(countdownInterval);
+            $("#countdown-text").text("Time's up!");
+            return;
+          }
+
+          const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+          const hours = Math.floor(
+            (timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          const minutes = Math.floor(
+            (timeLeft % (1000 * 60 * 60)) / (1000 * 60)
+          );
+          const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+          // Format the countdown as a single text
+          const countdownText = `${days} Day${days !== 1 ? "s" : ""} ${hours
+            .toString()
+            .padStart(2, "0")} Hours ${minutes
+            .toString()
+            .padStart(2, "0")} Minutes ${seconds
+            .toString()
+            .padStart(2, "0")} Seconds`;
+
+          $("#countdown-text").text(countdownText);
+        }
+
+        // Update the countdown every second
+        const countdownInterval = setInterval(updateCountdown, 1000);
+        updateCountdown();
+      });
+    </script>
+  </body>
+</html>
