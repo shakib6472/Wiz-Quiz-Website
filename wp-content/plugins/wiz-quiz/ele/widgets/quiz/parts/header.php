@@ -1,4 +1,4 @@
-<?php $slide = isset($_GET['slide']) ? $_GET['slide'] : false; 
+<?php $slide = isset($_GET['slide']) ? $_GET['slide'] : false;
 if ($slide) {
     $instruction_text = 'Question No. ' . $slide;
 } else {
@@ -8,11 +8,13 @@ if ($slide) {
 $total_munites = get_term_meta($term->term_id, 'add_time_munites', true) ? get_term_meta($term->term_id, 'add_time_munites', true) : 40;
 $total_seconds = $total_munites * 60;
 if ($existing_result) {
-    $spent_time = $existing_result->total_time;
+    $start_time = $existing_result->time;
+    $now = time();
+    $spent_time = $now - $start_time;
 } else {
     $spent_time = 0;
 }
-$remaining_time = $total_seconds - $spent_time; 
+$remaining_time = $total_seconds - $spent_time;
 // format the remaining time like this 40:00 munites
 $remaining_minutes = floor($remaining_time / 60);
 $remaining_seconds = $remaining_time % 60;
@@ -21,10 +23,7 @@ $remaining_time_formatted = sprintf("%d:%d", $remaining_minutes, $remaining_seco
 
 ?>
 
-<!-- Timing Calculatio
-    Get total from category
-    & then - the spend time. & count the time
--->
+
 
 <header>
     <div class="header">
@@ -41,20 +40,20 @@ $remaining_time_formatted = sprintf("%d:%d", $remaining_minutes, $remaining_seco
                     <div class="option" data-per="300">300%</div>
                 </div>
             </div>
-            <?php 
-           if (!$slide) { 
-            
-            ?>
-            <div class="timer">
-                <!-- add 40 munites timer -->
-                <div class="timer-holder">
-                    <div class="timer-icon">
-                        <i class="fas fa-stopwatch"></i>
-                        <div class="times" id="timer"><?php echo $remaining_time_formatted; ?> </div> Munites
+            <?php
+            if (!$slide) {
 
+            ?>
+                <div class="timer">
+                    <!-- add 40 munites timer -->
+                    <div class="timer-holder">
+                        <div class="timer-icon">
+                            <i class="fas fa-stopwatch"></i>
+                            <div class="times" id="timer"><?php echo $remaining_time_formatted; ?> </div> Minutes
+
+                        </div>
                     </div>
                 </div>
-            </div>
             <?php } ?>
         </div>
         <div class="title-area">
@@ -70,24 +69,30 @@ $remaining_time_formatted = sprintf("%d:%d", $remaining_minutes, $remaining_seco
         </div>
     </div>
 </header>
-<script>
-    let time = <?php echo $remaining_time; ?>;
-    const timerElement = document.getElementById('timer');
+<?php
+if (!$slide) {  
+?>
+    <script>
+        let time = <?php echo $remaining_time; ?>;
+        const timerElement = document.getElementById('timer');
 
-    function formatTime(num) {
-        return num < 10 ? `0${num}` : num;
-    }
-    const timerInterval = setInterval(function updateTimer() {
-        if (time <= 0) {
-            clearInterval(timerInterval);
-            alert('Time is up! let\'s see the result');
-            var url = '<?php echo get_home_url().'/results?quiz_id=' . $quiz_id . '&term=' . $term_id; ?>';
-            console.log(url);
-             window.location.href = url; 
+        function formatTime(num) {
+            return num < 10 ? `0${num}` : num;
         }
-        const minutes = Math.floor(time / 60);
-        const seconds = time % 60;
-        timerElement.innerHTML = `${formatTime(minutes)}:${formatTime(seconds)}`;
-        time--;
-    }, 1000);
-</script>
+        const timerInterval = setInterval(function updateTimer() {
+            if (time <= 0) {
+                clearInterval(timerInterval);
+                alert('Time is up! let\'s see the result');
+                var url = '<?php echo get_home_url() . '/results?quiz_id=' . $quiz_id . '&term=' . $term_id; ?>';
+                console.log(url);
+                window.location.href = url;
+            }
+            const minutes = Math.floor(time / 60);
+            const seconds = time % 60;
+            timerElement.innerHTML = `${formatTime(minutes)}:${formatTime(seconds)}`;
+            time--;
+        }, 1000);
+    </script>
+
+<?php
+}

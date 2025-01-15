@@ -194,5 +194,24 @@ register_uninstall_hook(__FILE__, 'wiz_uninstall_plugin');
 
 
 $font_family = get_option('font_family');
+// Add custom font to the front end
+function wiz_add_google_fonts()
+{
+    global $font_family;
+    error_log(print_r($font_family,true));
+
+    if ($font_family) {
+        foreach ($font_family as $tag => $font) {
+            wp_enqueue_style('wiz-google-fonts-'. $tag, 'https://fonts.googleapis.com/css2?family=' . $font . '&display=swap', false);
+            echo "<style>
+                body {$tag}{
+                    font-family: '{$font}', Arial, sans-serif; 
+                }
+            </style>";
+        }
+        
+    }
+}
+add_action('wp_enqueue_scripts', 'wiz_add_google_fonts');
  
 

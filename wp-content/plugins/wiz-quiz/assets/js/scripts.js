@@ -12,7 +12,7 @@ jQuery(document).ready(function ($) {
 
     // Desable Right Click
     $(document).on('contextmenu', function (e) {
-        showToastPlugin('Sorry', 'Write Click Desable for Writting Skill Test');
+        showToastPlugin('Sorry', 'Right Click is Disabled');
         e.preventDefault(); // Prevent the default right-click behavior
     });
 

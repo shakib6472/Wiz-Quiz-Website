@@ -59,7 +59,7 @@ usort($all_results, function ($a, $b) {
 
 <div class="wiz_container dashbaord_container">
     <div class="welcome-header">
-        <h1 class="welcoming"> GOOD MORNING, <?php echo $prname; ?></h1>
+        <h1 class="welcoming"> Your results <?php echo $prname; ?></h1>
         <?php
         if (!$all_results) {
         ?>
@@ -71,7 +71,7 @@ usort($all_results, function ($a, $b) {
                     return;
                 }
                     ?>
-        <h4>My Attepmts</h4>
+       <h4>My Attempts</h4>
     </div>
 
 

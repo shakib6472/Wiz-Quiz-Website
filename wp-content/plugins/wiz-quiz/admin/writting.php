@@ -11,7 +11,7 @@ if (! $action) {
 ?>
   <div class="wrap">
     <h1>Writting Test Results</h1>
-    <table class="wp-list-table widefat fixed striped">
+    <table class="wp-list-table widefat fixed striped result-table">
       <thead>
         <tr>
           <th>User Name</th>
@@ -19,7 +19,7 @@ if (! $action) {
           <th>Quiz ID</th>
           <th>Date</th>
           <th>Total Time</th>
-          <th>Total Mark</th>
+          <th>Results</th>
           <th>Action</th>
         </tr>
       </thead>

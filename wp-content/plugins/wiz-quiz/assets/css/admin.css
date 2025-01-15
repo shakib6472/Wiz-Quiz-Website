@@ -413,3 +413,7 @@ select {
 .save-button:hover {
   background-color: #0056b3;
 }
+
+table.wp-list-table.widefat.fixed.striped.result-table * {
+  font-size: 15px;
+}

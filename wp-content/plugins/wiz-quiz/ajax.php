@@ -513,3 +513,28 @@ function save_font_settings()
 }
 add_action('wp_ajax_save_font_settings', 'save_font_settings');
 add_action('wp_ajax_nopriv_save_font_settings', 'save_font_settings');
+function get_practice_test_names()
+{
+    $post_type = $_POST['post_type'];
+    $terms = get_terms([
+        'taxonomy' => $post_type,
+        'orderby' => 'name',
+        'order' => 'ASC',
+        'hide_empty' => false,
+    ]);
+    $test_names = [];
+    if (!empty($terms) && !is_wp_error($terms)) {
+        foreach ($terms as $term) {
+            $test_names[] = [
+                'id' => $term->term_id,
+                'name' => $term->name,
+                'tax' => $term->taxonomy,
+            ];
+        }
+    }
+    wp_send_json_success($test_names);
+}
+add_action('wp_ajax_get_practice_test_names', 'get_practice_test_names');
+add_action('wp_ajax_nopriv_get_practice_test_names', 'get_practice_test_names');
+
+

@@ -16,8 +16,8 @@ $term_name = $term->name;
 $tax = get_term($term_id)->taxonomy;
 
 // Get the term meta data "
-$publish_time = get_term_meta($term_id, 'publish_time', true); 
-$publish_time = strtotime($publish_time);
+$publisha_time = get_term_meta($term_id, 'publish_time', true); 
+$publish_time = strtotime($publisha_time);  
 $now = time();
 if ($now < $publish_time) {
     get_header();
@@ -47,7 +47,7 @@ if ($now < $publish_time) {
     <script>
         jQuery(document).ready(function($) {
             // Set the target date
-            const targetDate = new Date("<?php echo $publish_time; ?>");
+            const targetDate = new Date("<?php echo $publisha_time; ?>");
 
             function updateCountdown() {
                 const now = new Date();

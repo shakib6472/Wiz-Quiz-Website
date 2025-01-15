@@ -37,21 +37,12 @@ subpackage: admin/settings
 
 <script>
     $(document).ready(function() {
-        const tags = ["h1", "h2", "h3", "h4", "h5", "h6", "p", "span", "a", "button", "label", "input", "select", "textarea"];
+        const tags = ["h1", "h2", "h3", "h4", "h5", "h6", "p", "span", "a", "button", "label", "input", "select", "textarea", "strong", "em", "blockquote", "li", "ul", "ol"];
         const fonts = [
             "Roboto", "Open Sans", "Lobster", "Montserrat", "Lato", "Oswald", "Raleway", "Poppins", "Merriweather", "Nunito", "Ubuntu", "Playfair Display", "PT Sans", "PT Serif", "Rubik", "Source Sans Pro", "Quicksand", "Bitter", "Arvo", "Josefin Sans", "Mukta", "Karla", "Fira Sans", "Heebo", "Anton", "Work Sans", "Zilla Slab", "Signika", "Dosis", "Bebas Neue", "Manrope", "Cabin", "Barlow", "Crimson Text", "Inconsolata", "Asap", "Dancing Script", "Varela Round", "Exo 2", "Mulish", "Overpass", "Archivo", "DM Sans", "Slabo 27px", "Teko", "Oxygen", "Roboto Slab", "Pacifico", "Amatic SC", "Satisfy", "Bangers", "Quattrocento", "Martel", "Cormorant Garamond", "Nanum Gothic", "Abel", "Alegreya", "Hind", "Titillium Web", "Rajdhani", "Noto Sans", "Righteous", "Cairo", "Maven Pro", "Vollkorn", "Fredericka the Great", "Permanent Marker", "Cinzel", "Arima Madurai", "Cookie", "Pathway Gothic One", "Archivo Black", "Kanit", "Yanone Kaffeesatz", "Kaushan Script", "Shadows Into Light", "Alegreya Sans", "Great Vibes", "Eczar", "Cardo", "Julius Sans One", "Montserrat Alternates", "Francois One", "Lora", "Play", "Alfa Slab One", "Baloo 2", "Hammersmith One", "Notable", "Abhaya Libre", "Jost", "Prata", "Josefin Slab", "Sora", "Chakra Petch", "Bowlby One", "Red Hat Display", "Alatsi", "Crete Round", "Cormorant", "Caveat", "Gloria Hallelujah", "Zeyada", "Parisienne", "Kristi", "El Messiri", "Rochester", "Scope One", "Sanchez", "Average Sans", "Merienda", "Carter One", "Patrick Hand", "Itim", "Bai Jamjuree", "Actor", "Mukta Vaani", "Arsenal", "Yellowtail", "Norican", "Lobster Two", "Indie Flower", "Berkshire Swash", "Marcellus", "Overlock", "Tangerine", "Delius", "Megrim", "Cantata One", "Audiowide", "Poiret One", "Cabin Sketch", "Monoton", "Chewy", "Arimo", "Mochiy Pop One", "Asul", "Sansita Swashed", "Secular One", "Be Vietnam Pro", "Crimson Pro", "Allura", "Vast Shadow", "Gruppo", "Orbitron", "Charmonman", "Fugaz One", "Avenir", "Bree Serif", "Inter", "Lexend", "Prompt", "Space Mono", "Source Serif Pro", "Spectral", "Noto Serif", "Holtwood One SC", "Gentium Basic", "Neuton", "Frank Ruhl Libre", "Faustina", "DM Serif Display", "Arima", "Andika", "Mate SC", "Press Start 2P", "Pinyon Script", "Poetsen One", "Trirong", "Cutive Mono", "Lustria", "Pridi", "Rasa", "Amiri", "Domine", "Capriola", "Bungee Inline", "Allerta", "Tauri", "Exo", "Piazzolla", "Ubuntu Mono", "Libre Baskerville", "Lora Italic", "Cormorant SC", "Atkinson Hyperlegible", "IBM Plex Sans", "IBM Plex Mono", "Nunito Sans", "Urbanist", "Epilogue", "Syne", "Karla Italic", "Lexend Deca", "DM Mono", "Fira Code", "Alegreya SC", "Azeret Mono", "Andada Pro", "Space Grotesk", "Bungee", "Josefin Slab", "Fjalla One", "Caveat Brush", "Inria Serif", "Public Sans", "Tenor Sans", "Fira Sans Condensed", "Piazzolla", "Arvo Italic", "Lustria Italic", "Libre Franklin", "Dancing Script", "Cinzel Decorative", "Proza Libre", "Spectral SC", "Gentium Plus", "Rokkitt", "ABeeZee", "Dela Gothic One", "Volkhov", "Changa", "Noto Sans KR", "Noto Serif JP", "Crimson Pro Italic", "Asap Condensed", "Commissioner", "Nanum Pen Script", "Roboto Mono", "Baloo Bhaijaan 2", "Baloo Tamma 2", "Libre Bodoni", "Inknut Antiqua", "Zen Kurenaido", "Source Code Pro", "Yeseva One", "Source Serif 4", "Amiko", "Spectral Italic", "Unna", "Miriam Libre", "Overlock SC", "Pontano Sans", "Jaldi", "Taviraj", "Tinos", "Antic Slab", "Delius Swash Caps", "Average", "Didact Gothic", "Nanum Myeongjo", "Aleo", "Merriweather Italic", "Truculenta", "Vidaloka", "Shantell Sans", "Secular One", "Noto Sans SC", "Inter Tight", "Amaranth", "Manrope", "Old Standard TT", "Ruda", "Lekton", "Yrsa", "Arsenal Italic", "Fjord One", "Bellefair", "Quintessential", "Domine Italic", "Julius Sans One", "Literata", "Anek Devanagari", "IM Fell DW Pica", "Cormorant Infant", "Domine Bold", "Signika Negative", "Martian Mono", "Droid Sans Mono", "Big Shoulders Display", "Cormorant Italic", "IM Fell English", "Oldenburg", "Belleza", "Geo", "Economica", "Kurale", "Press Start 2P", "Recursive", "Big Shoulders Text", "Bree Serif Italic", "Cormorant Unicase", "Voltaire", "Bentham", "Staatliches", "Poly", "Heebo Italic", "Padauk", "Chivo Mono", "Grandstander", "Alike", "Noto Sans Thai", "Raleway Italic", "Aleo Italic", "Fira Sans Extra Condensed", "Gothic A1", "Catamaran", "GFS Neohellenic", "Lustria SC", "Fira Mono Italic", "Questrial", "Manjari", "Alata", "Kufam", "Lora SC", "Stint Ultra Condensed", "IBM Plex Serif", "Sen Italic", "Arvo Bold", "Poppins SemiBold", "Doppio One", "Encode Sans", "DM Sans Italic", "Lily Script One", "Cabin Italic", "Federo", "Ubuntu Italic", "Markazi Text", "Rufina", "Kaisei Opti", "Average Mono", "Nunito Italic", "Mukta Mahee", "Carattere", "Fira Sans Italic", "Lexend Tera", "Coustard", "Merriweather Sans", "Gilda Display", "Asul Italic", "Cormorant Upright", "Cormorant Garamond Italic"
         ];
-        const selectedFonts = {
-            h1: "Roboto",
-            h2: "Open Sans",
-            h3: "Lobster",
-            h4: "Montserrat",
-            h5: "Poppins",
-            h6: "Merriweather",
-            p: "Nunito"
-        };
-
-
+        const selectedFonts = <?php echo json_encode(get_option('font_family', [])); ?>;
+        console.log(selectedFonts);
         const fontSelectorContainer = $('#fontSelector');
 
         tags.forEach(tag => {
@@ -92,7 +83,7 @@ subpackage: admin/settings
             const preview = $('<div>')
                 .addClass('font-preview ' + tag)
                 .text(`This is a ${tag.toUpperCase()} tag preview.`)
-                .css('font-family', fonts[0]);
+                .css('font-family', selectedFonts[tag]);
 
             select.on('change', function() {
                 preview.css('font-family', $(this).val());
@@ -151,8 +142,6 @@ subpackage: admin/settings
                     console.error('Error:', errorThrown);
                 }
             });
-        });
-
-
+        }); 
     });
 </script>

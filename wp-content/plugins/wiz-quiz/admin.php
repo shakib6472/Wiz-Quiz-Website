@@ -61,6 +61,15 @@ function wiz_quiz_admin_menu()
         'wiz-quiz-settings', // Menu slug
         'wiz_quiz_settings_page' // Function to display the page content
     );
+    //Result Sheet
+    add_submenu_page(
+        'wiz-quiz', // Parent slug
+        'Result Sheet', // Page title
+        'Result Sheet', // Menu title
+        'manage_options', // Capability
+        'wiz-quiz-result-sheet', // Menu slug
+        'wiz_quiz_result_sheet_page' // Function to display the page content
+    );
 }
 function wiz_quiz_admin_page()
 {
@@ -92,4 +101,9 @@ function wiz_quiz_settings_page()
 {
     //include All Writtings;
     include WIZ_QUIZ_PLUGIN_DIR . 'admin/settings.php';
+}
+function wiz_quiz_result_sheet_page()
+{
+    //include All Writtings;
+    include WIZ_QUIZ_PLUGIN_DIR . 'admin/result-sheet.php';
 }

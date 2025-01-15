@@ -1,2 +1,1875 @@
-[27-Dec-2024 10:24:27 UTC] PHP Warning:  Undefined variable $publish_time in C:\xampp\htdocs\wiz\wp-content\plugins\wiz-quiz\ele\widgets\result.php on line 22
-[27-Dec-2024 10:24:27 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\wiz\wp-content\plugins\wiz-quiz\ele\widgets\result.php on line 22
+[06-Dec-2024 16:30:22 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 16:30:22 UTC] Post ID: 100
+[06-Dec-2024 16:30:22 UTC] Post Title: First Question
+[06-Dec-2024 16:30:22 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 16:30:22 UTC] Meta Key: _edit_lock | Meta Value: 1733502607:1
+[06-Dec-2024 16:30:22 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 16:30:22 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 16:30:22 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 16:30:22 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 16:30:22 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 16:30:22 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+
+[06-Dec-2024 16:30:22 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+
+[06-Dec-2024 16:30:22 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 16:30:22 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 16:30:22 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 16:30:22 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 16:30:22 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 16:30:22 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 16:30:22 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 16:30:22 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 16:30:22 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 16:30:22 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 16:30:22 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 16:30:22 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 16:30:22 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 16:30:22 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 16:30:22 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 16:30:22 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 16:30:22 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 16:30:22 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 16:30:22 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 16:30:22 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 16:30:22 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 16:30:22 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+
+
+
+
+
+
+[06-Dec-2024 16:30:22 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 16:30:22 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 16:30:22 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 16:30:22 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+
+
+[06-Dec-2024 16:30:22 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 16:30:22 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 16:30:22 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 16:30:22 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+
+
+[06-Dec-2024 18:09:48 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:09:48 UTC] Post ID: 100
+[06-Dec-2024 18:09:48 UTC] Post Title: First Question
+[06-Dec-2024 18:09:48 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:09:48 UTC] Meta Key: _edit_lock | Meta Value: 1733502607:1
+[06-Dec-2024 18:09:48 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:09:48 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:09:48 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:09:48 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:09:48 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:09:48 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:09:48 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:09:48 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:09:48 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:09:48 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:09:48 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:09:48 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:09:48 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:09:48 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:09:48 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:09:48 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:09:48 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:09:48 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:09:48 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:09:48 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:09:48 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:09:48 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:09:48 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:09:48 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:09:48 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:09:48 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:09:48 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:09:48 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:09:48 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:09:48 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:09:48 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:09:48 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:09:48 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:09:48 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:09:48 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:09:48 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:09:48 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:09:48 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:09:48 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:09:48 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:09:48 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:09:48 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:13:57 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:13:57 UTC] Post ID: 100
+[06-Dec-2024 18:13:57 UTC] Post Title: First Question
+[06-Dec-2024 18:13:57 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:13:57 UTC] Meta Key: _edit_lock | Meta Value: 1733502607:1
+[06-Dec-2024 18:13:57 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:13:57 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:13:57 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:13:57 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:13:57 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:13:57 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:13:57 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:13:57 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:13:57 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:13:57 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:13:57 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:13:57 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:13:57 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:13:57 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:13:57 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:13:57 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:13:57 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:13:57 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:13:57 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:13:57 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:13:57 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:13:57 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:13:57 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:13:57 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:13:57 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:13:57 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:13:57 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:13:57 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:13:57 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:13:57 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:13:57 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:13:57 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:13:57 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:13:57 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:13:57 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:13:57 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:13:57 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:13:57 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:13:57 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:13:57 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:13:57 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:13:57 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:14:09 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:14:09 UTC] Post ID: 100
+[06-Dec-2024 18:14:09 UTC] Post Title: First Question
+[06-Dec-2024 18:14:09 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:14:09 UTC] Meta Key: _edit_lock | Meta Value: 1733502607:1
+[06-Dec-2024 18:14:09 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:14:09 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:14:09 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:14:09 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:14:09 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:14:09 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:14:09 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:14:09 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:14:09 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:14:09 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:14:09 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:14:09 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:14:09 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:14:09 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:14:09 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:14:09 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:14:09 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:14:09 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:14:09 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:14:09 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:14:09 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:14:09 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:14:09 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:14:09 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:14:09 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:14:09 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:14:09 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:14:09 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:14:09 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:14:09 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:14:09 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:14:09 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:14:09 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:14:09 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:14:09 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:14:09 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:14:09 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:14:09 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:14:09 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:14:09 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:14:09 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:14:09 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:17:39 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:17:39 UTC] Post ID: 100
+[06-Dec-2024 18:17:39 UTC] Post Title: First Question
+[06-Dec-2024 18:17:39 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:17:39 UTC] Meta Key: _edit_lock | Meta Value: 1733502607:1
+[06-Dec-2024 18:17:39 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:17:39 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:17:39 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:17:39 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:17:39 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:17:39 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:17:39 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:17:39 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:17:39 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:17:39 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:17:39 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:17:39 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:17:39 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:17:39 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:17:39 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:17:39 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:17:39 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:17:39 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:17:39 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:17:39 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:17:39 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:17:39 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:17:39 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:17:39 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:17:39 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:17:39 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:17:39 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:17:39 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:17:39 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:17:39 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:17:39 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:17:39 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:17:39 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:17:39 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:17:39 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:17:39 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:17:39 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:17:39 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:17:39 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:17:39 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:17:39 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:17:39 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:17:55 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:17:55 UTC] Post ID: 100
+[06-Dec-2024 18:17:55 UTC] Post Title: First Question
+[06-Dec-2024 18:17:55 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:17:55 UTC] Meta Key: _edit_lock | Meta Value: 1733509073:1
+[06-Dec-2024 18:17:55 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:17:55 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:17:55 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:17:55 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:17:55 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:17:55 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:17:55 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract PArves
+[06-Dec-2024 18:17:55 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:17:55 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:17:55 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:17:55 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:17:55 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:17:55 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:17:55 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:17:55 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:17:55 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:17:55 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:17:55 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:17:55 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:17:55 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:17:55 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:17:55 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:17:55 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:17:55 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:17:55 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:17:55 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:17:55 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:17:55 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:17:55 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:17:55 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:17:55 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:17:55 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:17:55 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:17:55 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:17:55 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:17:55 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:17:55 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:17:55 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:17:55 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:17:55 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:17:55 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:17:55 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:18:32 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:18:32 UTC] Post ID: 100
+[06-Dec-2024 18:18:32 UTC] Post Title: First Question
+[06-Dec-2024 18:18:32 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:18:32 UTC] Meta Key: _edit_lock | Meta Value: 1733509085:1
+[06-Dec-2024 18:18:32 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:18:32 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:18:32 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:18:32 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:18:32 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:18:32 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:18:32 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:18:32 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:18:32 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:18:32 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:18:32 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:18:32 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:18:32 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:18:32 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:18:32 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:18:32 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:18:32 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:18:32 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:18:32 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:18:32 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:18:32 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:18:32 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:18:32 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:18:32 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:18:32 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:18:32 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:18:32 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:18:32 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:18:32 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:18:32 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:18:32 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:18:32 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:18:32 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:18:32 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:18:32 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:18:32 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:18:32 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:18:32 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:18:32 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:18:32 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:18:32 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:18:32 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:19:18 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:19:18 UTC] Post ID: 100
+[06-Dec-2024 18:19:18 UTC] Post Title: First Question
+[06-Dec-2024 18:19:18 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:19:18 UTC] Meta Key: _edit_lock | Meta Value: 1733509085:1
+[06-Dec-2024 18:19:18 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:19:18 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:19:18 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:19:18 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:19:18 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:19:18 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:19:18 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:19:18 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:19:18 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:19:18 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:19:18 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:19:18 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:19:18 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:19:18 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:19:18 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:19:18 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:19:18 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:19:18 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:19:18 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:19:18 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:19:18 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:19:18 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:19:18 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:19:18 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:19:18 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:19:18 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:19:18 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:19:18 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:19:18 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:19:18 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:19:18 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:19:18 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:19:18 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:19:18 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:19:18 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:19:18 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:19:18 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:19:18 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:19:18 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:19:18 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:19:18 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:19:18 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:19:53 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:19:53 UTC] Post ID: 100
+[06-Dec-2024 18:19:53 UTC] Post Title: First Question
+[06-Dec-2024 18:19:53 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:19:53 UTC] Meta Key: _edit_lock | Meta Value: 1733509085:1
+[06-Dec-2024 18:19:53 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:19:53 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:19:53 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:19:53 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:19:53 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:19:53 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:19:53 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:19:53 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:19:53 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:19:53 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:19:53 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:19:53 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:19:53 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:19:53 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:19:53 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:19:53 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:19:53 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:19:53 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:19:53 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:19:53 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:19:53 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:19:53 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:19:53 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:19:53 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:19:53 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:19:53 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:19:53 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:19:53 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:19:53 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:19:53 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:19:53 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:19:53 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:19:53 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:19:53 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:19:53 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:19:53 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:19:53 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:19:53 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:19:53 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:19:53 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:19:53 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:19:53 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:22:47 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:22:47 UTC] Post ID: 100
+[06-Dec-2024 18:22:47 UTC] Post Title: First Question
+[06-Dec-2024 18:22:47 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:22:47 UTC] Meta Key: _edit_lock | Meta Value: 1733509085:1
+[06-Dec-2024 18:22:47 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:22:47 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:22:47 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:22:47 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:22:47 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:22:47 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:22:47 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:22:47 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:22:47 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:22:47 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:22:47 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:22:47 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:22:47 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:22:47 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:22:47 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:22:47 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:22:47 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:22:47 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:22:47 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:22:47 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:22:47 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:22:47 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:22:47 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:22:47 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:22:47 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:22:47 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:22:47 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:22:47 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:22:47 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:22:47 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:22:47 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:22:47 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:22:47 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:22:47 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:22:47 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:22:47 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:22:47 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:22:47 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:22:47 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:22:47 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:22:47 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:22:47 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:23:01 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:23:01 UTC] Post ID: 100
+[06-Dec-2024 18:23:01 UTC] Post Title: First Question
+[06-Dec-2024 18:23:01 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:23:01 UTC] Meta Key: _edit_lock | Meta Value: 1733509085:1
+[06-Dec-2024 18:23:01 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:23:01 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:23:01 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:23:01 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:23:01 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:23:01 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:23:01 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:23:01 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:23:01 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:23:01 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:23:01 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:23:01 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:23:01 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:23:01 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:23:01 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:23:01 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:23:01 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:23:01 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:23:01 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:23:01 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:23:01 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:23:01 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:23:01 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:23:01 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:23:01 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:23:01 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:23:01 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:23:01 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:23:01 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:23:01 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:23:01 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:23:01 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:23:01 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:23:01 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:23:01 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:23:01 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:23:01 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:23:01 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:23:01 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:23:01 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:23:01 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:23:01 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:23:30 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:23:30 UTC] Post ID: 100
+[06-Dec-2024 18:23:30 UTC] Post Title: First Question
+[06-Dec-2024 18:23:30 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:23:30 UTC] Meta Key: _edit_lock | Meta Value: 1733509085:1
+[06-Dec-2024 18:23:30 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:23:30 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:23:30 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:23:30 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:23:30 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:23:30 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:23:30 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:23:30 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:23:30 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:23:30 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:23:30 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:23:30 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:23:30 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:23:30 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:23:30 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:23:30 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:23:30 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:23:30 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:23:30 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:23:30 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:23:30 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:23:30 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:23:30 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:23:30 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:23:30 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:23:30 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:23:30 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:23:30 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:23:30 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:23:30 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:23:30 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:23:30 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:23:30 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:23:30 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:23:30 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:23:30 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:23:30 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:23:30 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:23:30 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:23:30 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:23:30 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:23:30 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:24:36 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:24:36 UTC] Post ID: 100
+[06-Dec-2024 18:24:36 UTC] Post Title: First Question
+[06-Dec-2024 18:24:36 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:24:36 UTC] Meta Key: _edit_lock | Meta Value: 1733509472:1
+[06-Dec-2024 18:24:36 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:24:36 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:24:36 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:24:36 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:24:36 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:24:36 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts | Meta Value: 7
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:24:36 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:24:36 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:24:36 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:24:36 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:24:36 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:24:36 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:24:36 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:24:36 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:24:36 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:24:36 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:24:36 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:24:36 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:24:36 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:24:36 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:24:36 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:24:36 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:24:36 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:24:36 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_4_extract_name | Meta Value: Extract E
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_4_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_4_extract_details | Meta Value: dfasfd
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_4_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_5_extract_name | Meta Value: Extract F
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_5_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_5_extract_details | Meta Value: asdfsd
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_5_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_6_extract_name | Meta Value: Extract Gs
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_6_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:24:36 UTC] Meta Key: add_extracts_6_extract_details | Meta Value: dfasdfasd
+[06-Dec-2024 18:24:36 UTC] Meta Key: _add_extracts_6_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:30:12 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:30:12 UTC] Post ID: 100
+[06-Dec-2024 18:30:12 UTC] Post Title: First Question
+[06-Dec-2024 18:30:12 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:30:12 UTC] Meta Key: _edit_lock | Meta Value: 1733509498:1
+[06-Dec-2024 18:30:12 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:30:12 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:30:12 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:30:12 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:30:12 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:30:12 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:30:12 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:30:12 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:30:12 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>Extract A Slide 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:30:12 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:30:12 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:30:12 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:30:12 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:30:12 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:30:12 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:30:12 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:30:12 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:30:12 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:30:12 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:30:12 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:30:12 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:30:12 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:30:12 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:30:12 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:30:12 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:30:12 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:30:12 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:30:12 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:30:12 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:30:12 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:30:12 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:30:12 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:30:12 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>Extract B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:30:12 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:30:12 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:30:12 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:30:12 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>Extract C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:30:12 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:30:12 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:30:12 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:30:12 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>Extract D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:30:12 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:30:57 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:30:57 UTC] Post ID: 100
+[06-Dec-2024 18:30:57 UTC] Post Title: First Question
+[06-Dec-2024 18:30:57 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:30:57 UTC] Meta Key: _edit_lock | Meta Value: 1733509855:1
+[06-Dec-2024 18:30:57 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:30:57 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:30:57 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:30:57 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:30:57 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:30:57 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:30:57 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:30:57 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:30:57 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:30:57 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:30:57 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:30:57 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:30:57 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:30:57 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:30:57 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:30:57 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:30:57 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:30:57 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:30:57 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:30:57 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:30:57 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:30:57 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:30:57 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:30:57 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:30:57 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:30:57 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:30:57 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:30:57 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:30:57 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:30:57 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:30:57 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:30:57 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:30:57 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:30:57 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:30:57 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:30:57 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:30:57 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:30:57 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:30:57 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:30:57 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:30:57 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:30:57 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:35:33 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:35:33 UTC] Post ID: 100
+[06-Dec-2024 18:35:33 UTC] Post Title: First Question
+[06-Dec-2024 18:35:33 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:35:33 UTC] Meta Key: _edit_lock | Meta Value: 1733509855:1
+[06-Dec-2024 18:35:33 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:35:33 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:35:33 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:35:33 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:35:33 UTC] Meta Key: question_texts | Meta Value: This is Question 13?
+[06-Dec-2024 18:35:33 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:35:33 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:35:33 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:35:33 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:35:33 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:35:33 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:35:33 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:35:33 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:35:33 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:35:33 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:35:33 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:35:33 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:35:33 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:35:33 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:35:33 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:35:33 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:35:33 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:35:33 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:35:33 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:35:33 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:35:33 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:35:33 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:35:33 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:35:33 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:35:33 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:35:33 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:35:33 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:35:33 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:35:33 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:35:33 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:35:33 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:35:33 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:35:33 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:35:33 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:35:33 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:35:33 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:35:33 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:35:56 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 18:35:56 UTC] Post ID: 100
+[06-Dec-2024 18:35:56 UTC] Post Title: First Question
+[06-Dec-2024 18:35:56 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 18:35:56 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 18:35:56 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 18:35:56 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 18:35:56 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 18:35:56 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 18:35:56 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 18:35:56 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 18:35:56 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 18:35:56 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:35:56 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:35:56 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:35:56 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 18:35:56 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 18:35:56 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 18:35:56 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:35:56 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 18:35:56 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:35:56 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 18:35:56 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:35:56 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 18:35:56 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:35:56 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 18:35:56 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:35:56 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 18:35:56 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:35:56 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 18:35:56 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 18:35:56 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 18:35:56 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 18:35:56 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 18:35:56 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 18:35:56 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 18:35:56 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:35:56 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:35:56 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:35:56 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 18:35:56 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:35:56 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:35:56 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 18:35:56 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 18:35:56 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 18:35:56 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 18:35:56 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:10:23 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:10:23 UTC] Post ID: 100
+[06-Dec-2024 20:10:23 UTC] Post Title: First Question
+[06-Dec-2024 20:10:23 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:10:23 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:10:23 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:10:23 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:10:23 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:10:23 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:10:23 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:10:23 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:10:23 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:10:23 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:10:23 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:10:23 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:10:23 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:10:23 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:10:23 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:10:23 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:10:23 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:10:23 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:10:23 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:10:23 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:10:23 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:10:23 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:10:23 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:10:23 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:10:23 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:10:23 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:10:23 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:10:23 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:10:23 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:10:23 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:10:23 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:10:23 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:10:23 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:10:23 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:10:23 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:10:23 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:10:23 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:10:23 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:10:23 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:10:23 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:10:23 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:10:23 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:10:23 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:10:23 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:11:20 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:11:20 UTC] Post ID: 100
+[06-Dec-2024 20:11:20 UTC] Post Title: First Question
+[06-Dec-2024 20:11:20 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:11:20 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:11:20 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:11:20 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:11:20 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:11:20 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:11:20 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:11:20 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:11:20 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:11:20 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:11:20 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:11:20 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:11:20 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:11:20 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:11:20 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:11:20 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:11:20 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:11:20 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:11:20 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:11:20 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:11:20 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:11:20 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:11:20 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:11:20 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:11:20 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:11:20 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:11:20 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:11:20 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:11:20 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:11:20 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:11:20 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:11:20 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:11:20 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:11:20 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:11:20 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:11:20 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:11:20 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:11:20 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:11:20 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:11:20 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:11:21 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:11:21 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:11:21 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:11:21 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:11:54 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:11:54 UTC] Post ID: 100
+[06-Dec-2024 20:11:54 UTC] Post Title: First Question
+[06-Dec-2024 20:11:54 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:11:54 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:11:54 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:11:54 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:11:54 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:11:54 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:11:54 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:11:54 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:11:54 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:11:54 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:11:54 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:11:54 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:11:54 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:11:54 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:11:54 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:11:54 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:11:54 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:11:54 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:11:54 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:11:54 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:11:54 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:11:54 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:11:54 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:11:54 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:11:54 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:11:54 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:11:54 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:11:54 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:11:54 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:11:54 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:11:54 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:11:54 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:11:54 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:11:54 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:11:54 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:11:54 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:11:54 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:11:54 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:11:54 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:11:54 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:11:54 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:11:54 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:11:54 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:11:54 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:13:12 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:13:12 UTC] Post ID: 100
+[06-Dec-2024 20:13:12 UTC] Post Title: First Question
+[06-Dec-2024 20:13:12 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:13:12 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:13:12 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:13:12 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:13:12 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:13:12 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:13:12 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:13:12 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:13:12 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:13:12 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:13:12 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:13:12 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:13:12 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:13:12 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:13:12 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:13:12 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:13:12 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:13:12 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:13:12 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:13:12 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:13:12 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:13:12 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:13:12 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:13:12 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:13:12 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:13:12 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:13:12 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:13:12 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:13:12 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:13:12 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:13:12 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:13:12 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:13:12 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:13:12 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:13:12 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:13:12 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:13:12 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:13:12 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:13:12 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:13:12 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:13:12 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:13:12 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:13:12 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:13:12 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:13:21 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:13:21 UTC] Post ID: 100
+[06-Dec-2024 20:13:21 UTC] Post Title: First Question
+[06-Dec-2024 20:13:21 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:13:21 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:13:21 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:13:21 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:13:21 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:13:21 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:13:21 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:13:21 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:13:21 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:13:21 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:13:21 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:13:21 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:13:21 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:13:21 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:13:21 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:13:21 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:13:21 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:13:21 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:13:21 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:13:21 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:13:21 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:13:21 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:13:21 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:13:21 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:13:21 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:13:21 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:13:21 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:13:21 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:13:21 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:13:21 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:13:21 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:13:21 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:13:21 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:13:21 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:13:21 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:13:21 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:13:21 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:13:21 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:13:21 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:13:21 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:13:21 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:13:21 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:13:21 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:13:21 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:15:53 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:15:53 UTC] Post ID: 100
+[06-Dec-2024 20:15:53 UTC] Post Title: First Question
+[06-Dec-2024 20:15:53 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:15:53 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:15:53 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:15:53 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:15:53 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:15:53 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:15:53 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:15:53 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:15:53 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:15:53 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:15:53 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:15:53 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:15:53 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:15:53 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:15:53 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:15:53 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:15:53 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:15:53 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:15:53 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:15:53 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:15:53 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:15:53 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:15:53 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:15:53 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:15:53 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:15:53 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:15:53 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:15:53 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:15:53 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:15:53 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:15:53 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:15:53 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:15:53 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:15:53 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:15:53 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:15:53 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:15:53 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:15:53 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:15:53 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:15:53 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:15:53 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:15:53 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:15:53 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:15:53 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:06 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:17:07 UTC] Post ID: 100
+[06-Dec-2024 20:17:07 UTC] Post Title: First Question
+[06-Dec-2024 20:17:07 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:17:07 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:17:07 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:17:07 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:17:07 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:17:07 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:17:07 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:17:07 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:17:07 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:17:07 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:07 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:07 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:07 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:17:07 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:17:07 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:17:07 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:07 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:17:07 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:07 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:17:07 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:07 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:17:07 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:07 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:17:07 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:07 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:17:07 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:07 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:17:07 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:07 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:17:07 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:07 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:17:07 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:17:07 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:17:07 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:07 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:07 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:07 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:17:07 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:07 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:07 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:07 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:17:07 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:07 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:07 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:32 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:17:32 UTC] Post ID: 100
+[06-Dec-2024 20:17:32 UTC] Post Title: First Question
+[06-Dec-2024 20:17:32 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:17:32 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:17:32 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:17:32 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:17:32 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:17:32 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:17:32 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:17:32 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:17:32 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:17:32 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:32 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:32 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:32 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:17:32 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:17:32 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:17:32 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:32 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:17:32 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:32 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:17:32 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:32 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:17:32 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:32 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:17:32 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:32 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:17:32 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:32 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:17:32 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:32 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:17:32 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:32 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:17:32 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:17:32 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:17:32 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:32 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:32 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:32 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:17:32 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:32 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:32 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:32 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:17:32 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:32 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:32 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:38 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:17:38 UTC] Post ID: 100
+[06-Dec-2024 20:17:38 UTC] Post Title: First Question
+[06-Dec-2024 20:17:38 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:17:38 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:17:38 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:17:38 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:17:38 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:17:38 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:17:38 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:17:38 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:17:38 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:17:38 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:38 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:38 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:38 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:17:38 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:17:38 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:17:38 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:38 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:17:38 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:38 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:17:38 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:38 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:17:38 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:38 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:17:38 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:38 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:17:38 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:38 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:17:38 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:17:38 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:17:38 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:17:38 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:17:38 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:17:38 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:17:38 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:38 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:38 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:38 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:17:38 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:38 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:38 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:17:38 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:17:38 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:17:38 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:17:38 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:35:10 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:35:10 UTC] PHP Warning:  Undefined variable $post_slide in C:\xampp\htdocs\wiz\wp-content\plugins\wiz-quiz\ele\widgets\quiz\parts\pagination.php on line 58
+[06-Dec-2024 20:35:10 UTC] Post ID: 100
+[06-Dec-2024 20:35:10 UTC] Post Title: First Question
+[06-Dec-2024 20:35:10 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:35:10 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:35:10 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:35:10 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:35:10 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:35:10 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:35:10 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:35:10 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:35:10 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:35:10 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:35:10 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:35:10 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:35:10 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:35:10 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:35:10 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:35:10 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:35:10 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:35:10 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:35:10 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:35:10 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:35:10 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:35:10 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:35:10 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:35:10 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:35:10 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:35:10 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:35:10 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:35:10 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:35:10 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:35:10 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:35:10 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:35:10 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:35:10 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:35:10 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:35:10 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:35:10 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:35:10 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:35:10 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:35:10 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:35:10 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:35:10 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:35:10 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:35:10 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:35:10 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:35:22 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:35:22 UTC] Post ID: 100
+[06-Dec-2024 20:35:22 UTC] Post Title: First Question
+[06-Dec-2024 20:35:22 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:35:22 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:35:22 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:35:22 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:35:22 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:35:22 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:35:22 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:35:22 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:35:22 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:35:22 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:35:22 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:35:22 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:35:22 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:35:22 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:35:22 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:35:22 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:35:22 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:35:22 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:35:22 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:35:22 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:35:22 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:35:22 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:35:22 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:35:22 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:35:22 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:35:22 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:35:22 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:35:22 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:35:22 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:35:22 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:35:22 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:35:22 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:35:22 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:35:22 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:35:22 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:35:22 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:35:22 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:35:22 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:35:22 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:35:22 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:35:22 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:35:22 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:35:22 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:35:22 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:38:30 UTC] Current Term: WP_Term Object
+(
+    [term_id] => 5
+    [name] => Practice 1
+    [slug] => practice-1
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => reading-practice
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+[06-Dec-2024 20:38:30 UTC] Post ID: 100
+[06-Dec-2024 20:38:30 UTC] Post Title: First Question
+[06-Dec-2024 20:38:30 UTC] Meta Key: _edit_last | Meta Value: 1
+[06-Dec-2024 20:38:30 UTC] Meta Key: _edit_lock | Meta Value: 1733510155:1
+[06-Dec-2024 20:38:30 UTC] Meta Key: the_question_number | Meta Value: 13
+[06-Dec-2024 20:38:30 UTC] Meta Key: _the_question_number | Meta Value: field_674ccaff2aab2
+[06-Dec-2024 20:38:30 UTC] Meta Key: question_type | Meta Value: MCQ
+[06-Dec-2024 20:38:30 UTC] Meta Key: _question_type | Meta Value: field_674ccb342aab3
+[06-Dec-2024 20:38:30 UTC] Meta Key: question_texts | Meta Value: What is the Right Extract?
+[06-Dec-2024 20:38:30 UTC] Meta Key: _question_texts | Meta Value: field_674ccb7f2aab4
+[06-Dec-2024 20:38:30 UTC] Meta Key: add_extracts_0_extract_name | Meta Value: Extract A
+[06-Dec-2024 20:38:30 UTC] Meta Key: _add_extracts_0_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:38:30 UTC] Meta Key: add_extracts_0_extract_details | Meta Value: <h1>This is EXT A</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:38:30 UTC] Meta Key: _add_extracts_0_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:38:30 UTC] Meta Key: add_extracts | Meta Value: 4
+[06-Dec-2024 20:38:30 UTC] Meta Key: _add_extracts | Meta Value: field_674cc9a72aaaf
+[06-Dec-2024 20:38:30 UTC] Meta Key: mcq_options__0_mcq_option | Meta Value: Option 1
+[06-Dec-2024 20:38:30 UTC] Meta Key: _mcq_options__0_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:38:30 UTC] Meta Key: mcq_options__0_right | Meta Value: a:1:{i:0;s:3:"Yes";}
+[06-Dec-2024 20:38:30 UTC] Meta Key: _mcq_options__0_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:38:30 UTC] Meta Key: mcq_options__1_mcq_option | Meta Value: Option 2
+[06-Dec-2024 20:38:30 UTC] Meta Key: _mcq_options__1_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:38:30 UTC] Meta Key: mcq_options__1_right | Meta Value: 
+[06-Dec-2024 20:38:30 UTC] Meta Key: _mcq_options__1_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:38:30 UTC] Meta Key: mcq_options__2_mcq_option | Meta Value: Option 3
+[06-Dec-2024 20:38:30 UTC] Meta Key: _mcq_options__2_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:38:30 UTC] Meta Key: mcq_options__2_right | Meta Value: 
+[06-Dec-2024 20:38:30 UTC] Meta Key: _mcq_options__2_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:38:30 UTC] Meta Key: mcq_options__3_mcq_option | Meta Value: Option  4
+[06-Dec-2024 20:38:30 UTC] Meta Key: _mcq_options__3_mcq_option | Meta Value: field_674ccbc62aab6
+[06-Dec-2024 20:38:30 UTC] Meta Key: mcq_options__3_right | Meta Value: 
+[06-Dec-2024 20:38:30 UTC] Meta Key: _mcq_options__3_right | Meta Value: field_674ccbeb2aab7
+[06-Dec-2024 20:38:30 UTC] Meta Key: mcq_options_ | Meta Value: 4
+[06-Dec-2024 20:38:30 UTC] Meta Key: _mcq_options_ | Meta Value: field_674ccba52aab5
+[06-Dec-2024 20:38:30 UTC] Meta Key: add_extracts_1_extract_name | Meta Value: Extract B
+[06-Dec-2024 20:38:30 UTC] Meta Key: _add_extracts_1_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:38:30 UTC] Meta Key: add_extracts_1_extract_details | Meta Value: <h1>NEW FOR B</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:38:30 UTC] Meta Key: _add_extracts_1_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:38:30 UTC] Meta Key: add_extracts_2_extract_name | Meta Value: Extract C
+[06-Dec-2024 20:38:30 UTC] Meta Key: _add_extracts_2_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:38:30 UTC] Meta Key: add_extracts_2_extract_details | Meta Value: <h1>TYPE C</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veritatis autem quos ducimus. Quibusdam placeat inventore fugit facilis, quos dicta possimus at tempore sed, ab saepe, quo aliquid velit. Quidem debitis qui distinctio optio quas blanditiis consequuntur, quam excepturi consequatur commodi hic possimus ipsam temporibus velit amet. Enim odit tempora sed quidem distinctio ipsum aliquam, adipisci, ad deleniti veniam esse quae possimus dolorem cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:38:30 UTC] Meta Key: _add_extracts_2_extract_details | Meta Value: field_674ccae52aab1
+[06-Dec-2024 20:38:30 UTC] Meta Key: add_extracts_3_extract_name | Meta Value: Extract D
+[06-Dec-2024 20:38:30 UTC] Meta Key: _add_extracts_3_extract_name | Meta Value: field_674ccad42aab0
+[06-Dec-2024 20:38:30 UTC] Meta Key: add_extracts_3_extract_details | Meta Value: <h1>EXTED D</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Com veraliquam, adipisci, ad deleniti veniam esse Lorem ipsum dolor sit am cumque voluptatum! Aut tempore provident cupiditate molestias maxime in quam, libero facere enim incidunt! Recusandae?
+[06-Dec-2024 20:38:30 UTC] Meta Key: _add_extracts_3_extract_details | Meta Value: field_674ccae52aab1
+[07-Dec-2024 02:21:41 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\wiz\wp-includes\functions.php on line 6114
+[07-Dec-2024 02:21:50 UTC] Automatic updates starting...
+[07-Dec-2024 02:21:53 UTC] Automatic updates complete.

@@ -14,16 +14,16 @@ if (! $action) {
 ?>
   <div class="wrap">
     <h1>Reading Test Results</h1>
-    <table class="wp-list-table widefat fixed striped">
+    <table class="wp-list-table widefat fixed striped result-table">
       <thead>
         <tr>
-          <th>User Name</th>
-          <th>Device ID</th>
-          <th>Quiz ID</th>
-          <th>Date</th>
-          <th>Total Time</th>
-          <th>Total Mark</th>
-          <th>Action</th>
+          <th style="width: 10%">User Name</th>
+          <th style="width: 10%" >Device ID</th>
+          <th style="width: 10%" >Quiz ID</th>
+          <th style="width: 28%" >Date</th>
+          <th style="width: 28%" >Total Time</th>
+          <th style="width: 7%" >Results</th>
+          <th style="width: 7%" >Review</th>
         </tr>
       </thead>
       <tbody>
@@ -95,7 +95,7 @@ if (! $action) {
               <td><?php echo number_format($percentage, 1); ?>%</td>
               <td>
                 <div class="btn-holders">
-                  <div class="btn action-btn view_result" data-quiz_id="<?php echo $row->quiz_id ?>">Action</div>
+                  <div class="btn action-btn view_result" data-quiz_id="<?php echo $row->quiz_id ?>">Review</div>
                 </div>
               </td>
             </tr>

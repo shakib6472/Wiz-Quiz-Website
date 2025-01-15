@@ -66,27 +66,79 @@ class Elementor_wiz_taxonomy extends \Elementor\Widget_Base
             'order' => 'ASC',
             'hide_empty' => false,
         ]);
+        usort($terms, function($a, $b) {
+    return strnatcmp($a->name, $b->name); // Natural order comparison
+});
 
-        if (is_user_logged_in() || isset($_COOKIE['user_name'])) {
-            // Check if the user is logged in
-            if (is_user_logged_in()) {
+        if (is_user_logged_in() ) {
+
                 $current_user = wp_get_current_user();
                 // Display first and last name of the logged-in user
                 echo '<h4 class="wel-name">Welcome, ' . esc_html($current_user->user_firstname) . ' ' . esc_html($current_user->user_lastname) . '</h4>';
-            } elseif (isset($_COOKIE['user_name'])) {
-                // If the user is not logged in but the cookie is set
-                $user_name = $_COOKIE['user_name'];
-                echo '<h4 class="wel-name">Welcome, ' . esc_html($user_name) . '</h4>';
-            } 
+            
 
             if (!empty($terms) && !is_wp_error($terms)) {
                 foreach ($terms as $term) {
+                    global $wpdb;
+                    $term_id = $term->term_id;
+                    $max_attempt = get_term_meta($term_id, 'max_attempt', true);
+                    if($max_attempt == '') {
+                        $max_attempt = 1;
+                    }
+                    // get quiz from database for this user & check how many time he/she attempted with this term id (quiz_type_id)
+                    $tempcurrent_user = get_current_user_id();
+                    if ($tempcurrent_user) {
+                        $tempcurrent_use = get_user_by('id', $tempcurrent_user);
+                    } 
+                    $quiz_results_table = $wpdb->prefix . 'wiz_results';
+                    $quiz_wrttings_results_table = $wpdb->prefix . 'wiz_writting_results';
+                    $device_id = sanitize_text_field($_SERVER['REMOTE_ADDR']); // sanitize IP address
+                    $result_query = $wpdb->prepare(
+                        "SELECT * FROM $quiz_results_table WHERE user_id = %d AND quiz_type_id = %d ORDER BY id DESC",
+                        $tempcurrent_user,
+                        $term_id
+                    );
+                    $writting_result_query = $wpdb->prepare(
+                        "SELECT * FROM $quiz_wrttings_results_table WHERE user_id = %d AND quiz_type_id = %d ORDER BY id DESC",
+                        $tempcurrent_user,
+                        $term_id
+                    );
+
+                    $quiz_results = $wpdb->get_results($result_query);
+                    $writting_result = $wpdb->get_results($writting_result_query);
+                    $quiz_results = array_filter($quiz_results, function ($result) {
+                        return $result->result !== '';
+                    });
+                    $writting_result = array_filter($writting_result, function ($result) {
+                        return $result->result !== '';
+                    });
+                    // merger the two arrays
+                    $all_results = array_merge($quiz_results, $writting_result);
+                    $total_attempt = count($all_results);
+                    $remaining_attempt = $max_attempt - $total_attempt;
+                    if ($remaining_attempt == 0) {
+                        $remaining_class = 'no-retry';
+                    }else {
+                        $remaining_class = 'retry';
+                    }
                     // Log the term details and the term URL 
+                    $publisha_time = get_term_meta($term_id, 'publish_time', true);
+                    $publish_time = strtotime($publisha_time);
+                    $now = time();
+                    if ($now < $publish_time) {
+                        $available = 'Available Soon';
+                        $available_class= 'available-soon';
+                    } else {
+                        $available = 'Available Now';
+                        $available_class= 'available-now';
+                    }
 ?>
                     <div class="wiz-btn">
                         <a href="<?php echo esc_url(get_term_link($term) . '?quizid=' . time()); ?>">
                             <?php echo esc_html($term->name); ?>
                         </a>
+                        <div class="available <?php echo $available_class; ?>"><?php echo $available; ?></div>
+                        <div class="reamining <?php echo $remaining_class; ?>"><?php echo $remaining_attempt; ?> Retry</div>
                     </div>
             <?php
                 }
@@ -94,36 +146,84 @@ class Elementor_wiz_taxonomy extends \Elementor\Widget_Base
                 echo '<p>' . esc_html__('No terms found.', 'wiz-quiz') . '</p>';
             }
         } else {
- 
+
             ?>
             <div class="wiz-popup">
                 <div class="name-popup">
                     <div class="login-link">
                         Already Have an Account? <a href="<?php echo home_url('/login') ?>" class="login-link">Login Here</a>
                     </div>
-                    <div class="anonymus">
-                        <h3>Want to procced without login?</h3>
-                        <div class="name-box">
-                            <input type="text" name="name" id="name"  required placeholder="Full Name">
-                        </div>
-                        <div class="wiz-btn set-cockies">
-                            <a href=""> View Prectices</a>
-                        </div>
-                    </div>
+                    
                 </div>
 
             </div>
-            <div class="wiz-tax-hidden"> 
+            <div class="wiz-tax-hidden">
                 <?php
 
                 if (!empty($terms) && !is_wp_error($terms)) {
                     foreach ($terms as $term) {
+                        global $wpdb;
+                        $term_id = $term->term_id;
+                        $max_attempt = get_term_meta($term_id, 'max_attempt', true);
+                        if($max_attempt == '') {
+                            $max_attempt = 1;
+                        }
+                        // get quiz from database for this user & check how many time he/she attempted with this term id (quiz_type_id)
+                        $tempcurrent_user = get_current_user_id();
+                        if ($tempcurrent_user) {
+                            $tempcurrent_use = get_user_by('id', $tempcurrent_user);
+                        } elseif (isset($_COOKIE['user_name'])) {
+                            $tempuser_name = $_COOKIE['user_name'];
+                        }
+                        $quiz_results_table = $wpdb->prefix . 'wiz_results';
+                        $quiz_wrttings_results_table = $wpdb->prefix . 'wiz_writting_results';
+                        $device_id = sanitize_text_field($_SERVER['REMOTE_ADDR']); // sanitize IP address
+                        $result_query = $wpdb->prepare(
+                            "SELECT * FROM $quiz_results_table WHERE user_id = %d AND quiz_type_id = %d ORDER BY id DESC",
+                            $tempcurrent_user,
+                            $term_id
+                        );
+                        $writting_result_query = $wpdb->prepare(
+                            "SELECT * FROM $quiz_wrttings_results_table WHERE user_id = %d AND quiz_type_id = %d ORDER BY id DESC",
+                            $tempcurrent_user,
+                            $term_id
+                        );
+
+                        $quiz_results = $wpdb->get_results($result_query);
+                        $writting_result = $wpdb->get_results($writting_result_query);
+                        $quiz_results = array_filter($quiz_results, function ($result) {
+                            return $result->result !== '';
+                        });
+                        $writting_result = array_filter($writting_result, function ($result) {
+                            return $result->result !== '';
+                        });
+                        // merger the two arrays
+                        $all_results = array_merge($quiz_results, $writting_result);
+                        $total_attempt = count($all_results);
+                        $remaining_attempt = $max_attempt - $total_attempt;
+                        if ($remaining_attempt == 0) {
+                            $remaining_class = 'no-retry';
+                        }else {
+                            $remaining_class = 'retry';
+                        }
                         // Log the term details and the term URL 
+                        $publisha_time = get_term_meta($term_id, 'publish_time', true);
+                        $publish_time = strtotime($publisha_time);
+                        $now = time();
+                        if ($now < $publish_time) {
+                            $available = 'Available Soon';
+                            $available_class= 'available-soon';
+                        } else {
+                            $available = 'Available Now';
+                            $available_class= 'available-now';
+                        }
                 ?>
                         <div class="wiz-btn">
                             <a href="<?php echo esc_url(get_term_link($term) . '?quizid=' . time()); ?>">
                                 <?php echo esc_html($term->name); ?>
                             </a>
+                            <div class="available <?php echo $available_class; ?>"><?php echo $available; ?></div>
+                            <div class="reamining <?php echo $remaining_class; ?>"><?php echo $remaining_attempt; ?> Retry</div>
                         </div>
             <?php
                     }
