@@ -18,12 +18,12 @@ if (! $action) {
       <thead>
         <tr>
           <th style="width: 10%">User Name</th>
-          <th style="width: 10%" >Device ID</th>
-          <th style="width: 10%" >Quiz ID</th>
-          <th style="width: 28%" >Date</th>
-          <th style="width: 28%" >Total Time</th>
-          <th style="width: 7%" >Results</th>
-          <th style="width: 7%" >Review</th>
+          <th style="width: 10%">Device ID</th>
+          <th style="width: 10%">Quiz ID</th>
+          <th style="width: 28%">Date</th>
+          <th style="width: 28%">Total Time</th>
+          <th style="width: 7%">Results</th>
+          <th style="width: 7%">Review</th>
         </tr>
       </thead>
       <tbody>
@@ -47,7 +47,8 @@ if (! $action) {
                   'terms'    => $term_id,
                 ),
               ),
-              'orderby'        => 'date', // Sort by date
+              'meta_key'       => 'the_question_number',
+              'orderby'        => 'meta_value_num', // Sort by date
               'order'          => 'ASC',  // Oldest posts first
               'posts_per_page' => -1, // Get all posts, adjust the number if you want pagination
             );
@@ -58,7 +59,7 @@ if (! $action) {
             foreach ($posts as $post) {
               $post_id = $post->ID;
               $question_type = get_post_meta($post_id, 'question_type', true);
-              
+
               $max_point = get_post_meta($post_id, 'max_point', true);
               if (!$max_point) {
                 $max_point = 50;
@@ -75,15 +76,15 @@ if (! $action) {
 
                 $total_point =  $total_point + $max_point;
               }
-            }  
-            $results = json_decode($row->result, true); 
+            }
+            $results = json_decode($row->result, true);
             if (is_array($results)) {
               // Loop through the results and log each result
               foreach ($results as $result) {
-                $gain_point += $result['gain_point']; 
+                $gain_point += $result['gain_point'];
               }
-            } 
-            $percentage = ($total_point > 0) ? ($gain_point / $total_point) * 100 : 0; 
+            }
+            $percentage = ($total_point > 0) ? ($gain_point / $total_point) * 100 : 0;
 
           ?>
             <tr>
@@ -132,7 +133,8 @@ if (! $action) {
         'terms'    => $term_id,
       ),
     ),
-    'orderby'        => 'date', // Sort by date
+    'meta_key'       => 'the_question_number',
+    'orderby'        => 'meta_value_num', // Sort by date
     'order'          => 'ASC',  // Oldest posts first
     'posts_per_page' => -1, // Get all posts, adjust the number if you want pagination
   );

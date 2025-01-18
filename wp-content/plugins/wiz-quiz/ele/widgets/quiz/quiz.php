@@ -236,7 +236,8 @@ if ($now < $publish_time) {
                 'terms'    => $term->term_id,
             ),
         ),
-        'orderby'        => 'date', // Sort by date
+        'meta_key'       => 'the_question_number',
+        'orderby'        => 'meta_value_num', // Sort by date
         'order'          => 'ASC',  // Oldest posts first
         'posts_per_page' => -1, // Get all posts, adjust the number if you want pagination
     );

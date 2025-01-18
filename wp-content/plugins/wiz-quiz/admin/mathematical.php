@@ -49,9 +49,11 @@ if (! $action) {
                   'terms'    => $term_id,
                 ),
               ),
-              'orderby'        => 'date', // Sort by date
+              'meta_key'       => 'the_question_number',
+              'orderby'        => 'meta_value_num', // Sort by date
               'order'          => 'ASC',  // Oldest posts first
               'posts_per_page' => -1, // Get all posts, adjust the number if you want pagination
+              
             );
             $posts = get_posts($args);
 
@@ -134,9 +136,10 @@ if (! $action) {
         'terms'    => $term_id,
       ),
     ),
-    'orderby'        => 'date', // Sort by date
-    'order'          => 'ASC',  // Oldest posts first
-    'posts_per_page' => -1, // Get all posts, adjust the number if you want pagination
+    'meta_key'       => 'the_question_number',
+        'orderby'        => 'meta_value_num', // Sort by date
+        'order'          => 'ASC',  // Oldest posts first
+        'posts_per_page' => -1, // Get all posts, adjust the number if you want pagination
   );
   $posts = get_posts($args);
 
