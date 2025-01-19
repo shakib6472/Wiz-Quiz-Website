@@ -134,8 +134,7 @@ if ($now < $publish_time) {
         return;
     }
 
-
-    error_log('Taxonomy: ' . $tax);
+ 
     if ($tax == 'reading-practice') {
         $quiz_name = 'Reading';
     } else if ($tax == 'mathenatical-practice') {

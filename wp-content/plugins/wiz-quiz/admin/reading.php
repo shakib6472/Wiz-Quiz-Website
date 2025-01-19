@@ -28,8 +28,7 @@ if (! $action) {
       </thead>
       <tbody>
         <?php if (!empty($results)) : ?>
-          <?php foreach ($results as $row) :
-            error_log("Row: " . print_r($row, true));
+          <?php foreach ($results as $row) : 
             $total_time = $row->total_time;
             $hours = floor($total_time / 3600);
             $minutes = floor(($total_time % 3600) / 60);
@@ -204,8 +203,7 @@ if (! $action) {
                   include WIZ_QUIZ_PLUGIN_DIR . 'admin/reading-parts/mcq.php';
                 } elseif ('Drag & Drop' === $question_type) {
                   include WIZ_QUIZ_PLUGIN_DIR . 'admin/reading-parts/drag.php';
-                } elseif ('Multiple Drop Down' === $question_type) {
-                  error_log("Multiple Drop Down & post ID: $post_id, Index: $index");
+                } elseif ('Multiple Drop Down' === $question_type) { 
                   include WIZ_QUIZ_PLUGIN_DIR . 'admin/reading-parts/multiple.php';
                 }
                 ?>

@@ -74,10 +74,7 @@ class Elementor_wiz_main_quiz extends \Elementor\Widget_Base
 
         if (!empty($terms) && !is_wp_error($terms)) {
 
-            foreach ($terms as $term) {
-                // Log the term details and the term URL
-                error_log(print_r($term, true));
-                error_log('Term URL: ' . get_term_link($term)); 
+            foreach ($terms as $term) { 
 ?>
                 <div class="wiz-btn">
                     <a href="<?php echo esc_url(get_term_link($term)); ?>">

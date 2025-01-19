@@ -25,7 +25,7 @@ foreach ($results as $key => $value) {
     }
 }
 
-$given_answer = $results[$index]['answer_given'];
+$given_answer = $results[$index]['answer_given']; 
 $total_extract = get_post_meta($post_id, 'add_extracts', true);
 ?>
 <div class="option-container scrollbar desable">
@@ -47,8 +47,8 @@ $total_extract = get_post_meta($post_id, 'add_extracts', true);
         <div class="q-multipl-bg answer_<?php echo $answer_correct; ?>">
             <div class="question-row">
                 <label for="q<?php echo $post_id . $i; ?>"> <?php echo $opt_name; ?> </label>
-                <select disabled data-index="<?php echo $i; ?>" id="q<?php echo $post_id . $i; ?>" name="q<?php echo $post_id . $i; ?>">
-
+                <select data-index="<?php echo $i; ?>" id="q<?php echo $post_id . $i; ?>" name="q<?php echo $post_id . $i; ?>">
+ 
                     <?php
                     for ($j = 0; $j < $total_extract; $j++) {
                         $ext_key = 'add_extracts_' . $j . '_extract_name';
@@ -73,8 +73,8 @@ $total_extract = get_post_meta($post_id, 'add_extracts', true);
     ?>
 </div>
 
-<!-- <div class="savethis">
+<div class="savethis">
     <div class="wiz-btn">
-        <div class="btn update_mcq_answer" data-quiz_id="<?php // echo $_GET['quiz_id']; ?>" data-que="<?php // echo $post_id; ?>">Update This Answer</div>
+        <div class="btn update_multiple_answer" data-quiz_id="<?php  echo $_GET['quiz_id']; ?>" data-que="<?php  echo $post_id; ?>">Update This Answer</div>
     </div>
-</div> -->
+</div>

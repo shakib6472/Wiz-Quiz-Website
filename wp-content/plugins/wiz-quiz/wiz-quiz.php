@@ -13,7 +13,7 @@
 * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 * Text Domain:       wiz-quiz
 * Domain Path:       /languages
-*/ 
+*/
 
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
@@ -53,20 +53,29 @@ add_action('wp_enqueue_scripts', 'wiz_enqueue_assets');
 //enquew admin scripts  
 function wiz_admin_enqueue_scripts()
 {
-    wp_enqueue_style('wiz-quiz-toast-style', plugin_dir_url(__FILE__) . 'assets/css/toast.css', array(), '1.0.0', 'all');
-    wp_enqueue_style('wiz-quiz-admin-style', plugin_dir_url(__FILE__) . 'assets/css/admin.css', array(), '1.0.0', 'all');
+    // Enqueue admin styles
+    wp_enqueue_style('wiz-quiz-toast-style', plugin_dir_url(__FILE__) . 'assets/css/toast.css', array(), filemtime(plugin_dir_path(__FILE__) . 'assets/css/toast.css'), 'all');
+    wp_enqueue_style('wiz-quiz-admin-style', plugin_dir_url(__FILE__) . 'assets/css/admin.css', array(), filemtime(plugin_dir_path(__FILE__) . 'assets/css/admin.css'), 'all');
 
+    // Enqueue jQuery and external scripts
     wp_enqueue_script('jquery');
-    wp_enqueue_script('wiz-quiz-admin-script', plugin_dir_url(__FILE__) . 'assets/js/admin.js', array('jquery'), '1.0.0', true); // Load after jQuery
-    wp_enqueue_script('wiz-quiz-toast-script',  'https://cdn.jsdelivr.net/npm/jquery-toast-plugin@1.3.2/dist/jquery.toast.min.js', array('jquery'), '1.0.0', true); // Load after jQuery
+    wp_enqueue_script('wiz-quiz-font-awesome-script', 'https://kit.fontawesome.com/46882cce5e.js', array(), null, true); // Font Awesome (version not required for CDN)
+    wp_enqueue_script('wiz-quiz-jq-ui-script', 'https://code.jquery.com/ui/1.13.2/jquery-ui.min.js', array('jquery'), '1.13.2', true); // jQuery UI
+    wp_enqueue_script('wiz-quiz-toast-script', 'https://cdn.jsdelivr.net/npm/jquery-toast-plugin@1.3.2/dist/jquery.toast.min.js', array('jquery'), '1.3.2', true); // Toast Plugin
+    wp_enqueue_script('wiz-quiz-math-script', 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js', array(), '3.0.0', true); // MathJax
 
+    // Enqueue local admin script
+    wp_enqueue_script('wiz-quiz-admin-script', plugin_dir_url(__FILE__) . 'assets/js/admin.js', array('jquery', 'wiz-quiz-jq-ui-script'), filemtime(plugin_dir_path(__FILE__) . 'assets/js/admin.js'), true);
+
+    // Localize script with necessary URLs
     wp_localize_script('wiz-quiz-admin-script', 'ajax_object', array(
-        'ajax_url'   => admin_url('admin-ajax.php'),  // Correct Ajax URL
-        'result_url'   => home_url('/results'),                    // Correct Result page URL
-        'home_url'   => home_url()                    // Correct Home URL
+        'ajax_url'   => admin_url('admin-ajax.php'),  // Ajax URL
+        'result_url' => home_url('/results'),         // Result Page URL
+        'home_url'   => home_url()                   // Home URL
     ));
 }
 add_action('admin_enqueue_scripts', 'wiz_admin_enqueue_scripts');
+
 
 // Activation hook
 function wiz_activate_plugin()
@@ -198,20 +207,16 @@ $font_family = get_option('font_family');
 function wiz_add_google_fonts()
 {
     global $font_family;
-    error_log(print_r($font_family,true));
 
     if ($font_family) {
         foreach ($font_family as $tag => $font) {
-            wp_enqueue_style('wiz-google-fonts-'. $tag, 'https://fonts.googleapis.com/css2?family=' . $font . '&display=swap', false);
+            wp_enqueue_style('wiz-google-fonts-' . $tag, 'https://fonts.googleapis.com/css2?family=' . $font . '&display=swap', false);
             echo "<style>
                 body {$tag}{
                     font-family: '{$font}', Arial, sans-serif; 
                 }
             </style>";
         }
-        
     }
 }
 add_action('wp_enqueue_scripts', 'wiz_add_google_fonts');
- 
-

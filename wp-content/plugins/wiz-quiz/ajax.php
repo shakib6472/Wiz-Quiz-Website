@@ -239,34 +239,30 @@ add_action('wp_ajax_nopriv_wiz_update_result_database_writting', 'wiz_update_res
 function wiz_update_result_database_multiple()
 {
     global $wpdb;
-    error_log("Function wiz_update_result_database_multiple called");
+ 
     $quiz_id = $_POST['wizQuizData']['quiz_id'];
     $user_name = $_POST['wizQuizData']['user_name'];
     $term_id = $_POST['wizQuizData']['term_id'];
     $current_time = time();
     $answers = $_POST['answers'];
     $question_id = $_POST['question_id'];
-
-    error_log("Received Data: Quiz ID: $quiz_id, User Name: $user_name, Term ID: $term_id, Question ID: $question_id");
+ 
 
     $gain_point = 0;
     $total_option = get_post_meta($question_id, 'drop_down_options', true);
-
-    error_log("Total options to check: $total_option");
+  
 
     for ($i = 0; $i < $total_option; $i++) {
         $answer_key = 'drop_down_options_' . $i . '_select_extract';
         $actual_answer = str_replace(' ', '', trim(get_post_meta($question_id, $answer_key, true)));
         $given_answer = str_replace(' ', '', trim($answers[$i]['answer']));
-
-        error_log("Checking option $i: Expected Answer: $actual_answer, Given Answer: $given_answer");
+ 
 
         if ($actual_answer == $given_answer) {
             $gain_point++;
         }
     }
-
-    error_log("Total points gained: $gain_point");
+ 
 
     if ($gain_point == $total_option) {
         $correct = 'correct';
@@ -281,8 +277,7 @@ function wiz_update_result_database_multiple()
         'total_point'  => $total_option,
         'gain_point'   => $gain_point,
     );
-
-    error_log("New result prepared: " . json_encode($new_result));
+ 
 
     $table_name = $wpdb->prefix . "wiz_results";
     $query = "
@@ -293,32 +288,26 @@ function wiz_update_result_database_multiple()
     ";
 
     $row = $wpdb->get_row($wpdb->prepare($query, $quiz_id, $user_name));
-
-    error_log("Database query executed. Found row: " . json_encode($row));
+ 
 
     if ($row) {
         $total_time = $current_time - $row->time;
         $existing_result = json_decode($row->result, true);
-
-        error_log("Existing result: " . json_encode($existing_result));
-
+ 
         if (is_array($existing_result)) {
             $question_found = false;
             foreach ($existing_result as &$existing_entry) {
                 if ($existing_entry['question_id'] == $new_result['question_id']) {
                     $existing_entry = $new_result;
-                    $question_found = true;
-                    error_log("Updated existing result for question ID: " . $new_result['question_id']);
+                    $question_found = true; 
                     break;
                 }
             }
             if (!$question_found) {
-                $existing_result[] = $new_result;
-                error_log("Added new result for question ID: " . $new_result['question_id']);
+                $existing_result[] = $new_result; 
             }
         } else {
-            $existing_result = array($new_result);
-            error_log("Existing result was not an array, initialized with new result");
+            $existing_result = array($new_result); 
         }
 
         $updated = $wpdb->update(
@@ -329,19 +318,14 @@ function wiz_update_result_database_multiple()
             ),
             array('id' => $row->id)
         );
+ 
 
-        error_log("Update result: " . ($updated !== false ? "Success" : "Failure"));
-
-        if ($updated !== false) {
-            error_log("Response: Success");
+        if ($updated !== false) { 
             wp_send_json_success('success');
-        } else {
-            error_log("Response: Error");
+        } else { 
             wp_send_json_error('Error');
         }
-    } else {
-        error_log("No existing row found for Quiz ID: $quiz_id and User Name: $user_name");
-    }
+    }  
 
     wp_die();
 }
@@ -501,6 +485,181 @@ function update_mcq_result()
 }
 add_action('wp_ajax_update_mcq_result', 'update_mcq_result');
 add_action('wp_ajax_nopriv_update_mcq_result', 'update_mcq_result');
+
+
+function update_multiple_result()
+{
+    global $wpdb;
+    // Extract relevant data from $_POST
+    error_log(print_r($_POST, true));
+    $quiz_id = $_POST['quiz_id'];
+    $question_id = $_POST['question_id'];
+    $updated_answer = $_POST['updated_answer'];
+    $answers = $_POST['updated_answer'];
+    $gain_point = 0;
+ $total_option = get_post_meta($question_id, 'drop_down_options', true);
+
+ 
+
+    for ($i = 0; $i < $total_option; $i++) {
+        $answer_key = 'drop_down_options_' . $i . '_select_extract';
+        $actual_answer = str_replace(' ', '', trim(get_post_meta($question_id, $answer_key, true)));
+        $given_answer = str_replace(' ', '', trim($answers[$i]['answer'])); 
+
+        if ($actual_answer == $given_answer) {
+            $gain_point++;
+        }
+    }
+
+
+
+    if ($given_answer == $actual_answer) {
+        $correct = 'correct'; 
+    } else {
+        $correct = 'incorrect'; 
+    }
+
+    $new_result = array(
+        'question_id'  => $_POST['question_id'],
+        'answer_given' => $answers,
+        'correct'      => $correct,
+        'total_point'  => $total_option,
+        'gain_point'   => $gain_point,
+    );
+
+    // Prepare SQL query to get the row from the database
+    $table_name = $wpdb->prefix . "wiz_results";
+    $query = "
+        SELECT * 
+        FROM $table_name 
+        WHERE quiz_id = %d  
+    ";
+    $row = $wpdb->get_row($wpdb->prepare($query,  $quiz_id));
+    if ($row) {
+        $existing_result = json_decode($row->result, true);
+        if (is_array($existing_result)) {
+            $question_found = false;
+            foreach ($existing_result as &$existing_entry) {
+                if ($existing_entry['question_id'] == $new_result['question_id']) {
+                    $existing_entry = $new_result;
+                    $question_found = true;
+                    break;
+                }
+            }
+            if (!$question_found) {
+                $existing_result[] = $new_result;
+            }
+        } else {
+            $existing_result = array($new_result);
+        }
+        $updated = $wpdb->update(
+            $table_name,
+            array(
+                'result'     => json_encode($existing_result), // Encode as JSON
+            ),
+            array('id' => $row->id) // Use the row's ID to identify it
+        );
+
+        // Log the update result
+        if ($updated !== false) {
+            wp_send_json_success('success');
+        } else {
+            wp_send_json_error('Error');
+        }
+    }
+    wp_die();
+}
+add_action('wp_ajax_update_multiple_result', 'update_multiple_result');
+add_action('wp_ajax_nopriv_update_multiple_result', 'update_multiple_result');
+
+
+function update_drag_result()
+{
+    global $wpdb;
+    // Extract relevant data from $_POST 
+    $quiz_id = $_POST['quiz_id'];
+    $question_id = $_POST['question_id'];
+    $result = $_POST['updated_answer'];
+    $answers = $_POST['updated_answer'];
+    $gain_point = 0;
+    $total_option = get_post_meta($question_id, 'drag_&_drop', true);
+
+ 
+
+    for ($i = 0; $i < $total_option; $i++) {
+        $answer_key = 'drag_&_drop_' . $i . '_answer';
+        $answer = str_replace(' ', '', trim(get_post_meta($question_id, $answer_key, true)));
+        $given_answer = str_replace(' ', '', trim($result[$i]['option']));
+
+        if ($answer == $given_answer) {
+            $gain_point++;
+        }
+    }
+
+
+
+    if ($gain_point == $total_option) {
+        $correct = 'correct';
+    } else {
+        $correct = 'incorrect';
+    }
+
+    $new_result = array(
+        'question_id'  => $_POST['question_id'],
+        'answer_given' => $result,
+        'correct'      => $correct,
+        'total_point'  => $total_option,
+        'gain_point'   => $gain_point,
+    );
+
+
+    // Prepare SQL query to get the row from the database
+    $table_name = $wpdb->prefix . "wiz_results";
+    $query = "
+        SELECT * 
+        FROM $table_name 
+        WHERE quiz_id = %d  
+    ";
+    $row = $wpdb->get_row($wpdb->prepare($query,  $quiz_id));
+    if ($row) {
+        $existing_result = json_decode($row->result, true);
+        if (is_array($existing_result)) {
+            $question_found = false;
+            foreach ($existing_result as &$existing_entry) {
+                if ($existing_entry['question_id'] == $new_result['question_id']) {
+                    $existing_entry = $new_result;
+                    $question_found = true;
+                    break;
+                }
+            }
+            if (!$question_found) {
+                $existing_result[] = $new_result;
+            }
+        } else {
+            $existing_result = array($new_result);
+        }
+        $updated = $wpdb->update(
+            $table_name,
+            array(
+                'result'     => json_encode($existing_result), // Encode as JSON
+            ),
+            array('id' => $row->id) // Use the row's ID to identify it
+        );
+
+        // Log the update result
+        if ($updated !== false) {
+            wp_send_json_success('success');
+        } else {
+            wp_send_json_error('Error');
+        }
+    }
+    wp_die();
+}
+add_action('wp_ajax_update_drag_result', 'update_drag_result');
+add_action('wp_ajax_nopriv_update_drag_result', 'update_drag_result');
+
+
+
 
 
 function save_font_settings()

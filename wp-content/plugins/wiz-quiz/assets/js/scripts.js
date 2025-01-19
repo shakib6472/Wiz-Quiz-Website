@@ -17,13 +17,13 @@ jQuery(document).ready(function ($) {
     });
 
     // Check if the cookie 'user_gmt_offset' exists
-    if (document.cookie.indexOf('user_gmt_offset=') === -1) { 
-        const offsetMinutes = new Date().getTimezoneOffset(); 
-        const offsetHours = -offsetMinutes / 60; 
-        const gmtOffset = `GMT${offsetHours >= 0 ? '+' : ''}${offsetHours}`; 
+    if (document.cookie.indexOf('user_gmt_offset=') === -1) {
+        const offsetMinutes = new Date().getTimezoneOffset();
+        const offsetHours = -offsetMinutes / 60;
+        const gmtOffset = `GMT${offsetHours >= 0 ? '+' : ''}${offsetHours}`;
         document.cookie = `user_gmt_offset=${encodeURIComponent(gmtOffset)}; path=/;`;
-        
-    } 
+
+    }
     function showLoader() {
         $('.preloader').css('display', 'flex')
     }
@@ -243,6 +243,7 @@ jQuery(document).ready(function ($) {
         let question_id = isActiveSlide.data('que'); // Get the current slide number
         let nextSlide = currentSlide + 1; // Calculate the next slide number
         let maxSlide = wizQuizData.post_count; // Define the maximum slide number
+
         const answers = [];
         var select_answers = isActiveSlide.find('select');
         select_answers.each(function (e) {
@@ -524,39 +525,63 @@ jQuery(document).ready(function ($) {
         containment: "body",
     });
 
-    // Make answer boxes droppable
-    $(".answer-box").droppable({
-        accept: ".drag_option",
-        drop: function (event, ui) {
-            const $box = $(this);
-            const $option = $(ui.draggable);
 
-            if ($box.hasClass("filled")) {
-                const $existingOption = $box.find(".drag_option");
-                $("#options").append($existingOption);
-                $existingOption.css({ top: "0px", left: "0px" });
-            }
-
-            $box.empty().append($option).addClass("filled");
-            $option.css({ top: "0px", left: "0px" });
-        },
+    // Initialize draggable options
+function makeDraggable($elements) {
+    $elements.draggable({
+        revert: "invalid",
+        stack: ".option",
+        cursor: "move",
+        containment: "body",
     });
+}
 
-    // Options pool droppable
-    $("#options").droppable({
-        accept: ".drag_option",
-        drop: function (event, ui) {
-            const $option = $(ui.draggable);
-            const $box = $option.closest(".answer-box");
-            if ($box.length) {
-                $box
-                    .removeClass("filled")
-                    .html('<span class="placeholder">Drop here</span>');
-            }
-            $(this).append($option);
-            $option.css({ top: "0px", left: "0px" });
-        },
-    });
+// Initial call to make all drag options draggable
+makeDraggable($(".drag_option"));
+
+// Make answer boxes droppable
+$(".answer-box").droppable({
+    accept: ".drag_option",
+    drop: function (event, ui) {
+        const $box = $(this);
+        const $option = $(ui.draggable);
+
+        // If the box is already filled, move the existing option back to #options
+        if ($box.hasClass("filled")) {
+            const $existingOption = $box.find(".drag_option").detach();
+            $("#options").append($existingOption);
+            $existingOption.css({ top: "0px", left: "0px" });
+            makeDraggable($existingOption); // Reapply draggable
+        }
+
+        // Move the dropped option into the answer box
+        $box.empty().append($option).addClass("filled");
+        $option.css({ top: "0px", left: "0px" });
+    }
+}); 
+
+// Make the options pool droppable
+$("#options").droppable({
+    accept: ".drag_option",
+    drop: function (event, ui) {
+        const $option = $(ui.draggable);
+        const $box = $option.closest(".answer-box");
+
+        // If it was in an answer box, reset the box
+        if ($box.length) {
+            $box.removeClass("filled").html('<span class="placeholder">Drop here</span>');
+        }
+
+        // Clone the dragged item to avoid losing draggable state
+        const $clonedOption = $option.clone().css({ top: "0px", left: "0px" });
+        $(this).append($clonedOption);
+        $option.remove(); // Remove the original to prevent duplicates
+
+        // Reapply draggable to the cloned item
+        makeDraggable($clonedOption);
+    }
+});
+
 
     $('.set-cockies').click(function (e) {
         e.preventDefault();
@@ -576,7 +601,7 @@ jQuery(document).ready(function ($) {
 
     $('.close_modal').click(function (e) {
         $('.wiz_modal').css('display', 'none');
-    }); 
+    });
 });
 
 
